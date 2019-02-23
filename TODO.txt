@@ -1,6 +1,52 @@
 -*- org -*-
 
-* Mouth segment article
+* Whole repo
+** [0/3] Move this project into its own git repo
+*** TODO Update links in all other pages to new place
+*** TODO Add GitHub pages redirects from old places to new
+    Redirect using HTTP refresh?
+    <meta http-equiv="Refresh" content="0; url=http://www.domain.com/newlocation" />
+*** TODO Remove files for this project project from its earlier repo
+** TODO Add README.md
+** TODO Multiple licenses?
+   Code should be released under GNU, but other text under Creative Commons.
+** TODO Copy this TODO list to the one in the repo
+** TODO `all-lips.svg` should be linked to from some page
+   Full filename is `teckenskrift/pic/mun/all-lips.svg`.
+* index: Introduction
+** TODO Add videos to word/sentence examples
+** TODO Describe the edge diacritic better
+   The edge diacritic (in the 'Fingrar' chapter) is not described very well.
+   Describe how it work in neutral space.
+** TODO Better Swedish translation of ’digibet’
+   (maybe ’fingerformer’?)
+** TODO Add pictures of hands above example ’fingerbetet’
+** TODO Add example of combined eyebrows/mouth and nose wrinkle
+   http://www.aslwrite.com/writeaslnow/extramanualmarks/
+** TODO Reorder and/or recategorize handshapes
+   Maybe order by frequency of occurrence, based on corpus data?
+** TODO Add more fingerspelling examples
+** TODO Change favicon to SSLWrite handshape 'spread hand' symbol
+** TODO Add sentence examples
+   (from Bergman's grammatical compendium?)
+
+   For example relative clauses, interrogative sentences, rhetorical questions,
+   statements
+
+   'If' sentence: https://www.facebook.com/photo.php?fbid=10155275501528404
+** TODO Look through Niks list of handshapes, see that they're all included
+** TODO Add brief comment on design principles of handshape symbols
+   http://www.aslwrite.com/whats-secret-asl-digits-2/
+** TODO Examples with vertical marker on expanding/contracting motion lines
+** [0/2] Writing example in text introduction
+*** TODO Street sign mockup (in Swedish + SSL)
+    Name of cities (Stockholm + Uppsala, maybe?) photoshopped with text both in
+    Swedish and sign language.
+*** TODO Title of article in sign language
+* anteckningar
+* aslwrite
+* handsymbol
+* munbild: Mouth segment notes
 ** TODO Clean up references section
    Write each reference in an appropriate form.
 ** TODO Add pics from "How to Write American Sign Language"
@@ -22,4 +68,34 @@
    Useful data can be found in:
    * ”A Preliminary Analysis of Visual Mouth Segments in Swedish Sign
      Language” has a bunch of useful examples of reductions.
+* negation
+* skriftsystem
+* Finished
+** DONE Move TODO comments in 'index.html' to this file
+   CLOSED: [2019-02-23 Sat 22:45]
+** [1/5] Move this project into its own git repo
+*** DONE Update links from zrajm.github.io to new place
+    CLOSED: [2019-02-23 Sat 18:24]
+*** DONE Add repo description on GitHub
+    CLOSED: [2019-02-23 Sat 17:23]
+*** DONE Publish repo on GitHub Pages
+    CLOSED: [2019-02-23 Sat 17:23]
+*** DONE Add new repo to GitHub
+    CLOSED: [2019-02-23 Sat 15:15]
+*** DONE Cleanup last commit (unmove stuff into subdir).
+    CLOSED: [2019-02-23 Sat 13:48]
+*** DONE Cleanup TODO file history
+    CLOSED: [2019-02-22 Fri 19:14]
+    Remove everything from TODO.txt that's other projects.
+*** DONE Rewrite all commit messages
+    CLOSED: [2019-02-22 Fri 18:41]
+**** DONE Remove mentions of project name
+     CLOSED: [2019-02-22 Fri 18:40]
+     Basically every commit message mentions which project it belongs to, this
+     is redundant when the project gets its own repo.
+**** DONE Also remove trailing periods.
+     CLOSED: [2019-02-22 Fri 18:38]
+     All commit messages ends in a period, but this is not best practice so
+     let's undo that since we're rewriting history anyway.
+
 * [eof]
