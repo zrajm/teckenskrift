@@ -1,12 +1,6 @@
 -*- org -*-
 
 * Whole repo
-** [0/3] Move this project into its own git repo
-*** TODO Update links in all other pages to new place
-*** TODO Add GitHub pages redirects from old places to new
-    Redirect using HTTP refresh?
-    <meta http-equiv="Refresh" content="0; url=http://www.domain.com/newlocation" />
-*** TODO Remove files for this project project from its earlier repo
 ** TODO Add README.md
 ** TODO Multiple licenses?
    Code should be released under GNU, but other text under Creative Commons.
@@ -73,7 +67,16 @@
 * Finished
 ** DONE Move TODO comments in 'index.html' to this file
    CLOSED: [2019-02-23 Sat 22:45]
-** [1/5] Move this project into its own git repo
+** [8/8] Move this project into its own git repo
+*** DONE Add GitHub pages redirects from old places to new
+    CLOSED: [2019-02-24 Sun 04:31]
+    Redirect using HTTP refresh?
+    <meta http-equiv="Refresh" content="0; url=http://www.domain.com/newlocation">
+*** DONE Remove files for this project project from its earlier repo
+    CLOSED: [2019-02-24 Sun 04:31]
+*** DONE Update links in all other pages to new place
+    CLOSED: [2019-02-24 Sun 02:51]
+    There are none. The only link found is the one on zrajm.github.io.
 *** DONE Update links from zrajm.github.io to new place
     CLOSED: [2019-02-23 Sat 18:24]
 *** DONE Add repo description on GitHub
