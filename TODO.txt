@@ -1,8 +1,6 @@
 -*- org -*-
 
 * Whole repo
-** TODO Stop using 'SSL-skrift' only call it 'Teckenskrift'
-** TODO Copy this TODO list to the one in the repo
 ** TODO `all-lips.svg` should be linked to from some page
    Full filename is `teckenskrift/pic/mun/all-lips.svg`.
 * index: Introduction
@@ -63,8 +61,12 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Stop using 'SSL-skrift' only call it 'Teckenskrift'
+   CLOSED: [2019-02-24 Sun 15:24]
 ** DONE Add README.md
    CLOSED: [2019-02-24 Sun 14:41]
+** DONE Copy this TODO list to the one in the repo
+   CLOSED: [2019-02-24 Sun 00:00]
 ** DONE Multiple licenses?
    CLOSED: [2019-02-23 Sat 17:26]
    Code should be released under GNU, but other text under Creative Commons.
