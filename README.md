@@ -1,15 +1,24 @@
 # Teckenskrift
 
-*Teckenskrift* (or SSLWrite) is a writing system for Swedish Sign Language. It
-differs from the [SSL transcription system] used by sign language researchers
-in that it is simpler in structure and easier to read and write. Much of this
-ease-of-use comes form taking advantage of the two dimensional writing surface
-to portray motion.
+*Teckenskrift* (or *SSLWrite* in English) is a writing system for Swedish Sign
+Language. It differs from the [SSL transcription system] used by sign language
+researchers in that it is simpler in structure and easier to read and write.
+Much of this ease-of-use comes form taking advantage of the two dimensional
+writing surface to portray motion.
 
 SSLWrite is very similar to ASLWrite with only some minor adaptions made for
 Swedish Sign Language. [ASLWrite], in turn, is a writing system developed for
 American Sign Language by Adrean Clark, Jules Dameron, Robert Arnold and many
 others.
+
+This repository contains an introduction to SSLWrite, plus assorted notes
+collected during my attempts to understand all the various aspects of ASLWrite.
+
+Since my writings on SSLWrite are primarily indended for a Swedish audience
+(more specifically users of Swedish Sign Language) everything here is written
+in Swedish. Stuff of a more technical nature (like code, this README and commit
+messages, etc) are written in English to make them accessible to my secondary
+audience (international sign language researchers and hackers).
 
 [ASLWrite]: https://en.wikipedia.org/wiki/ASLwrite
 
@@ -23,20 +32,20 @@ University. SSLWrite grew out of my frustration with not being able to write
 sign language directly. (I wanted to be able to later look up an unrecognized
 sign, or to write down new signs enocuntered during lectures.)
 
-My other sign language related projects can be found on my [web page] or via my
-[GitHub page].
+My other sign language related projects can be found on my [web page] or
+through my [GitHub page].
 
 [web page]: https://zrajm.github.io/
 
 [GitHub page]: https://github.com/zrajm/
 
-[zrajm]: zrajm@zrajm.org
+[zrajm]: mailto:zrajm@zrajm.org
 
 
 ## License
 
 * Code in this repository is licensed under GNU General Public License version
-  3 or higher ([GPLv3]). -- Except for any included external libraries and
+  3 or higher ([GPLv3]). – Except for any included external libraries and
   modules which use their own licenses.
 
 * Text and images (and any other non-code material) is licensed under Creative
@@ -45,5 +54,3 @@ My other sign language related projects can be found on my [web page] or via my
 [GPLv3]: LICENSE.txt
 
 [CC-BY-SA-4.0]: LICENSE-CC.txt
-
-[eof]
