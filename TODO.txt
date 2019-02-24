@@ -1,9 +1,7 @@
 -*- org -*-
 
 * Whole repo
-** TODO Add README.md
-** TODO Multiple licenses?
-   Code should be released under GNU, but other text under Creative Commons.
+** TODO Stop using 'SSL-skrift' only call it 'Teckenskrift'
 ** TODO Copy this TODO list to the one in the repo
 ** TODO `all-lips.svg` should be linked to from some page
    Full filename is `teckenskrift/pic/mun/all-lips.svg`.
@@ -65,9 +63,14 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Add README.md
+   CLOSED: [2019-02-24 Sun 14:41]
+** DONE Multiple licenses?
+   CLOSED: [2019-02-23 Sat 17:26]
+   Code should be released under GNU, but other text under Creative Commons.
 ** DONE Move TODO comments in 'index.html' to this file
    CLOSED: [2019-02-23 Sat 22:45]
-** [8/8] Move this project into its own git repo
+** [8/8] Move SSLWrite into its own git repo
 *** DONE Add GitHub pages redirects from old places to new
     CLOSED: [2019-02-24 Sun 04:31]
     Redirect using HTTP refresh?
