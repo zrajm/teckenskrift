@@ -1,9 +1,10 @@
 -*- org -*-
 
-* Whole repo
-** TODO `all-lips.svg` should be linked to from some page
-   Full filename is `teckenskrift/pic/mun/all-lips.svg`.
 * index: Introduction
+** TODO Rename 'mötande linjer'/'skiljande linjer'
+   Call them 'ihopgående'/'isärgående linjer' instead. (Since 'skiljande linje'
+   could mean either 'a line that cuts into two' or 'a line that diverge' --
+   better to eliminate that ambiguity.)
 ** TODO Better indication that the videos are videos
    When stopped the video should have a small play symbol in a circle to
    indicate that these are videos which can be played, and not just static
@@ -69,6 +70,9 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Linked to `all-lips.svg` image from munbilder.html
+   CLOSED: [2019-02-25 Mon 16:06]
+   Full filename is `teckenskrift/pic/mun/all-lips.svg`.
 ** DONE Add videos to word/sentence examples
    CLOSED: [2019-02-25 Mon 15:59]
 ** DONE Stop using 'SSL-skrift' only call it 'Teckenskrift'
