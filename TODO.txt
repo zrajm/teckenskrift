@@ -1,10 +1,6 @@
 -*- org -*-
 
 * index: Introduction
-** TODO Rename 'mötande linjer'/'skiljande linjer'
-   Call them 'ihopgående'/'isärgående linjer' instead. (Since 'skiljande linje'
-   could mean either 'a line that cuts into two' or 'a line that diverge' --
-   better to eliminate that ambiguity.)
 ** TODO Better indication that the videos are videos
    When stopped the video should have a small play symbol in a circle to
    indicate that these are videos which can be played, and not just static
@@ -42,10 +38,20 @@
     Name of cities (Stockholm + Uppsala, maybe?) photoshopped with text both in
     Swedish and sign language.
 *** TODO Title of article in sign language
+** TODO Rename 'mötande linjer'?
+   Should these be called 'ihopgående' or 'sammangående', to parallel
+   'isärgående linjer'?
 * anteckningar
 * aslwrite
 * handsymbol
 * munbild: Mouth segment notes
+** TODO Look at mouthings in described in SSLC
+   The Swedish Sign Language Corpus have at least some annotations of reduced
+   mouthings borrowed from Swedish. -- I happened to stumble upon the
+   annotation '(t)i(ll)ä(gga);tillägga' (in tier 'Kommentar_mun S2' in file
+   'sslc01_003.eaf') -- maybe there are more to be found?
+
+   Could this data help in cataloging all the mouthings borrowed from Swedish?
 ** TODO Clean up references section
    Write each reference in an appropriate form.
 ** TODO Add pics from "How to Write American Sign Language"
@@ -70,6 +76,11 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Rename 'skiljande linjer' -> 'isärgående linjer'
+   CLOSED: [2019-02-25 Mon 21:00]
+   Call them 'isärgående linjer' instead. (Since 'skiljande linje' could mean
+   either 'a line that cuts into two' or 'a line that diverge' -- better to
+   eliminate that ambiguity.)
 ** DONE Linked to `all-lips.svg` image from munbilder.html
    CLOSED: [2019-02-25 Mon 16:06]
    Full filename is `teckenskrift/pic/mun/all-lips.svg`.
