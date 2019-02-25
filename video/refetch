@@ -1,0 +1,27 @@
+#!/bin/sh
+
+TEMPDIR=TMP
+mkdir -p "$TEMPDIR"
+[ -d "$TEMPDIR" ] || { echo "$0: Failed to create tempdir '$TEMPDIR'"; exit 5; }
+
+for URLFILE in *.url; do
+    read URL <"$URLFILE"
+    INFILE="${URL##*/}"      # strip leading URL part (.mp4)
+    INFILE="${INFILE%.*}"    # strip trailing file extension
+    OUTFILE="${URLFILE%.*}"  # strip suffix (.url)
+
+    # Fetch .url file content
+    echo -n "Processing '$URLFILE'.. "
+    echo -n "Fetching.. "
+    while read URL; do
+        FILE="$TEMPDIR/${URL##*/}"
+        [ -e "$FILE" ] || wget -O"$FILE" "$URL"
+    done <"$URLFILE"
+
+    echo -n "Building.. "
+    [ -e "$OUTFILE.mp4" ] || ../bin/mkthumbnail "$TEMPDIR/$INFILE.mp4" "$OUTFILE.mp4"
+    [ -e "$OUTFILE.png" ] || ../bin/mkthumbnail "$TEMPDIR/$INFILE.jpg" "$OUTFILE.png"
+    echo
+done
+
+#[eof]

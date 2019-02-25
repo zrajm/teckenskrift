@@ -4,7 +4,15 @@
 ** TODO `all-lips.svg` should be linked to from some page
    Full filename is `teckenskrift/pic/mun/all-lips.svg`.
 * index: Introduction
-** TODO Add videos to word/sentence examples
+** TODO Better indication that the videos are videos
+   When stopped the video should have a small play symbol in a circle to
+   indicate that these are videos which can be played, and not just static
+   images. This little video symbol should be placed bottom left (and NOT in
+   the center of image, as that will obscure significant parts of the video
+   preview).
+** TODO Add better feedback when playing videos
+   There should be a play pause icon appearing when starting/stopping the video
+   (just like there is in the lexicon).
 ** TODO Describe the edge diacritic better
    The edge diacritic (in the 'Fingrar' chapter) is not described very well.
    Describe how it work in neutral space.
@@ -61,6 +69,8 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Add videos to word/sentence examples
+   CLOSED: [2019-02-25 Mon 15:59]
 ** DONE Stop using 'SSL-skrift' only call it 'Teckenskrift'
    CLOSED: [2019-02-24 Sun 15:24]
 ** DONE Add README.md

@@ -1,0 +1,59 @@
+#!/bin/zsh
+
+# Good 4/3 aspect ratios:
+#   240x180
+#   280x210
+#
+# ASPECT="4/3"
+
+SIZE=240x180
+
+INFILE="$1"
+OUTFILE="$2"
+
+if [ $# -ne 2 -o ! -f "$INFILE" ]; then
+    if [ -f "$INFILE" ]; then
+	echo "${0#*/}: Bad args!"
+    else
+        echo "${0#*/}: File '$INFILE' not found"
+    fi
+    cat <<-EOF
+	Usage: ${0#*/} INFILE OUTFILE
+
+	Crops an image or video (INFILE) by extracting a 4/3 rectangle in the
+	middle, and then scales it to $SIZE. (Uses FFMpeg for video scaling,
+	and ImageMagick for bitmap scaling.)
+
+	WARNING: Scaling an image with a taller aspect that 4/3 will probably
+	fail horribly (this should work with videos however).
+	EOF
+    exit 1
+fi >&2
+
+
+EXT="${INFILE##*.}"
+case "$EXT" in
+    mp4|mpeg|mpg)
+        [ -e "$OUTFILE" ] && mv -f "$OUTFILE" "$OUTFILE.bak"
+        ffmpeg -i "$INFILE" \
+            -filter_complex "[0:v]crop=4/3*in_h:in_h[a];[a]scale=$SIZE" \
+            -vcodec libx264 -preset fast -profile:v main -an "$OUTFILE"
+        ;;
+    jpg|jpeg)
+        OLD_HEIGHT="$(identify -ping -format %h "$INFILE")"
+
+        # Sizes specified in argument.
+        HEIGHT="${SIZE#*x}"
+        WIDTH="${SIZE%x*}"
+        RATIO="$(convert xc: -format "%[fx:$WIDTH/$HEIGHT]" info:)"
+        integer NEW_WIDTH="$(( OLD_HEIGHT * RATIO +.5 ))"
+        [ -e "$OUTFILE" ] && mv -f "$OUTFILE" "$OUTFILE.bak"
+        convert "$INFILE" \
+            -gravity center \
+            -crop "${NEW_WIDTH}x+0+0" +repage \
+            -scale "$SIZE" \
+            "$OUTFILE"
+        ;;
+esac
+
+#[eof]
