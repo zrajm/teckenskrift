@@ -1,0 +1,25 @@
+/* Copyright 2019 by zrajm. Released under GPLv3 license. */
+.idbase {
+    position: relative;
+    z-index: 1;
+}
+.idbase a.idlink {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    padding: 0 .275em;
+    color: #ddd;
+    background: #fff;
+    box-shadow: 0 0 .125em .125em #fff;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+.idbase:hover > a.idlink {
+    display: inline;
+}
+.idbase a.idlink:hover {
+    color: #000;
+    background: #ddd;
+}
+/*[eof]*/

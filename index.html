@@ -1697,6 +1697,7 @@ krumelurer används ’markör’ eller ‘symbol’.
 </section>
 
 <script src="jquery-3.3.1.min.js"></script>
+<script src="idlinks.js"></script>
 <script>
     $("body").on("click", "video", function () {
         jqVideo = $(this);
@@ -1704,44 +1705,5 @@ krumelurer används ’markör’ eller ‘symbol’.
         jqVideo.trigger(action);
     });
 </script>
-<script>$(function () {
-    // Add links to itself to all elements with 'id' attribute, or for <div>
-    // and <section> add the link to the first child element (presumably <h1>).
-    function addHashLinks() {
-        $("[id]").each(function (i, elem) {
-            var jq = $(elem), id = jq.attr("id");
-            if (jq.prop("tagName").match(/^(?:DIV|SECTION)$/)) {
-                jq = jq.children().first();
-            }
-            jq.addClass("hashbase").append("<a href='#" + id + "' class=hashlink>¶</a>");
-        });
-    }
-    setTimeout(addHashLinks, 1000);
-})</script>
-<style>
-  .hashbase {
-    position: relative;
-    z-index: 1;
-  }
-  .hashbase a.hashlink {
-    display: none;
-    position: absolute;
-    z-index: -1;
-    padding: 0 .275em;
-    color: #ddd;
-    background: #fff;
-    box-shadow: 0 0 .125em .125em #fff;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: none;
-  }
-  .hashbase:hover > a.hashlink {
-    display: inline;
-  }
-  .hashbase a.hashlink:hover {
-    color: #000;
-    background: #ddd;
-  }
-</style>
 </body>
 </html>
