@@ -1,10 +1,13 @@
 -*- org -*-
 
 * index: Introduction
-** TODO Remove 'strömarkör'
-   Use 'fladdermarkör' (flutter marker) instead. Flutter marker + handshape
-   with contact between thumb and fingers (ie a-hand, o-hand, nyphand och liten
-   o-hand) = strö. Flutter marker + handshape without contact = flutter.
+** TODO Kantmarkör with body position
+   How is this supposed to work in combination with body positions?
+
+   Some signs that could benefit from this:
+   https://teckensprakslexikon.su.se/ord/00789 'gammal'
+   https://teckensprakslexikon.su.se/ord/12312 'problem'
+   https://teckensprakslexikon.su.se/ord/00798 'fantasi'
 ** TODO Better indication that the videos are videos
    When stopped the video should have a small play symbol in a circle to
    indicate that these are videos which can be played, and not just static
@@ -80,6 +83,11 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Remove 'strömarkör'
+   CLOSED: [2019-04-07 Sun 03:11]
+   Use 'fladdermarkör' (flutter marker) instead. Flutter marker + handshape
+   with contact between thumb and fingers (ie a-hand, o-hand, nyphand och liten
+   o-hand) = strö. Flutter marker + handshape without contact = flutter.
 ** DONE Remove 'böjsmarkör' och 'skakmarkör'
    CLOSED: [2019-04-07 Sun 01:30]
    These can be covered by 'vinkmarkör' placed in different places relative to
