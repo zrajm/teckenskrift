@@ -1,6 +1,10 @@
 -*- org -*-
 
 * index: Introduction
+** TODO Remove 'strömarkör'
+   Use 'fladdermarkör' (flutter marker) instead. Flutter marker + handshape
+   with contact between thumb and fingers (ie a-hand, o-hand, nyphand och liten
+   o-hand) = strö. Flutter marker + handshape without contact = flutter.
 ** TODO Better indication that the videos are videos
    When stopped the video should have a small play symbol in a circle to
    indicate that these are videos which can be played, and not just static
@@ -76,6 +80,10 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Remove 'böjsmarkör' och 'skakmarkör'
+   CLOSED: [2019-04-07 Sun 01:30]
+   These can be covered by 'vinkmarkör' placed in different places relative to
+   the handshape.
 ** DONE Rename 'skiljande linjer' -> 'isärgående linjer'
    CLOSED: [2019-02-25 Mon 21:00]
    Call them 'isärgående linjer' instead. (Since 'skiljande linje' could mean
