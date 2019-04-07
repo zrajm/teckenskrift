@@ -1,13 +1,6 @@
 -*- org -*-
 
 * index: Introduction
-** TODO Kantmarkör with body position
-   How is this supposed to work in combination with body positions?
-
-   Some signs that could benefit from this:
-   https://teckensprakslexikon.su.se/ord/00789 'gammal'
-   https://teckensprakslexikon.su.se/ord/12312 'problem'
-   https://teckensprakslexikon.su.se/ord/00798 'fantasi'
 ** TODO Better indication that the videos are videos
    When stopped the video should have a small play symbol in a circle to
    indicate that these are videos which can be played, and not just static
@@ -20,9 +13,16 @@
 ** TODO Describe the edge diacritic better
    The edge diacritic (in the 'Fingrar' chapter) is not described very well.
    Describe how it work in neutral space.
+
+   Also give concrete example of how to use it in combination with body
+   positions?
+
+   Some signs that could benefit from this:
+   https://teckensprakslexikon.su.se/ord/00789 'gammal'
+   https://teckensprakslexikon.su.se/ord/12312 'problem'
+   https://teckensprakslexikon.su.se/ord/00798 'fantasi'
 ** TODO Better Swedish translation of ’digibet’
    (maybe ’fingerformer’?)
-** TODO Add pictures of hands above example ’fingerbetet’
 ** TODO Add example of combined eyebrows/mouth and nose wrinkle
    http://www.aslwrite.com/writeaslnow/extramanualmarks/
 ** TODO Reorder and/or recategorize handshapes
@@ -83,6 +83,8 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Add pictures of hands above example ’fingerbetet’
+   CLOSED: [2019-02-25 Mon 16:00]
 ** DONE Remove 'strömarkör'
    CLOSED: [2019-04-07 Sun 03:11]
    Use 'fladdermarkör' (flutter marker) instead. Flutter marker + handshape
