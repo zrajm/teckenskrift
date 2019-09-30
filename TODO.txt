@@ -50,7 +50,11 @@
    'isärgående linjer'?
 * anteckningar
 * aslwrite
-* handsymbol
+* handsymboler
+** TODO Ge klohand ett extra fingerstreck?
+   Klohand har bara ett extra fingerstreck, medan böjd 4-hand har två (för att
+   distingera den från böjd W-hand). Kolla hur det ser ut i ASLWrite. Vad är
+   rimligt i STS-skrift?
 * munbild: Mouth segment notes
 ** TODO Look at mouthings in described in SSLC
    The Swedish Sign Language Corpus have at least some annotations of reduced
