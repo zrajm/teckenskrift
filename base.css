@@ -159,4 +159,8 @@ button, select {
 }
 select option { background-color: #fff; }
 
+:target {
+    background: rgba(0, 0, 255, .2); }
+}
+
 /*[eof]*/
