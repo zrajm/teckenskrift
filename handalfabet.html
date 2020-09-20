@@ -69,54 +69,122 @@
 <body>
   <h1>Teckenskrift: Handalfabetet</h1>
   <section>
-
-    <p>Detta är en inledande genomgång och anpassning av handalfabetet till
-    teckenskrift. Det är eftersträvansvärt att förenkla symbolerna för
-    bokstaveringar något (och inte använda altför många diakritiska symboler)
-    eftersom detta gör det besvärligt att skriva ut bokstaveringar med
-    teckenskrift.
-
-    <p>Attityden hos handen skiljer sig dock nämnvärt mellan amerikanskt och
-    svenskt teckenspråk, hur löser man detta? ASLWrite är tydligt förenklat i
-    sig (man använder sig inte av någon kantmarkör för att indikera att
-    händerna hålls upprätt, tex). Detta behöver funderas på!
-
-    <p>Det svenska handalfabetet.
-
-    <figure class="x2" style="border:1px solid black;margin:1em;word-spacing:.5em;letter-spacing:.1em;padding:.125em .25em;font-size:2em;line-height:1.5em!important;text-align:center">
-      <nobr>A<img src="pic/digibet/c02.svg"></nobr>
-      <nobr>B<img src="pic/handalfa/b.svg"></nobr>
-      <nobr>C<img src="pic/handalfa/c.svg"></nobr>
-      <nobr>D<img src="pic/handalfa/d.svg"></nobr>
-      <nobr>E<img src="pic/handalfa/e.svg"></nobr>
-      <nobr>F<img src="pic/digibet/f-hand.svg"></nobr>
-      <nobr>G<img src="pic/handalfa/g.svg"></nobr>
-      <nobr>H<img src="pic/digibet/a15.svg"></nobr>
-      <nobr>I<img src="pic/digibet/c23.svg"></nobr>
-      <nobr>J<img src="pic/digibet/a11.svg"></nobr>
-      <nobr>K<img src="pic/digibet/c15.svg"></nobr>
-      <nobr>L<img src="pic/handalfa/l.svg"></nobr>
-      <nobr>M<img src="pic/digibet/m-hand.svg"></nobr>
-      <nobr>N<img src="pic/digibet/c24.svg"></nobr>
-      <nobr>O<img src="pic/digibet/b04-c.svg"></nobr>
-      <nobr>P<img src="pic/handalfa/p.svg"></nobr>
-      <nobr>Q<img src="pic/digibet/q-hand.svg" style="position:relative;top:.15em"></nobr>
-      <nobr>R<img src="pic/handalfa/r.svg"></nobr>
-      <nobr>S<img src="pic/digibet/a07-c.svg"></nobr>
-      <nobr>T<img src="pic/handalfa/t.svg"></nobr>
-      <nobr>U<img src="pic/handalfa/u.svg"></nobr>
-      <nobr>V<img src="pic/handalfa/v.svg"></nobr>
-      <nobr>W<img src="pic/handalfa/w.svg"></nobr>
-      <nobr>X<img src="pic/handalfa/x.svg"></nobr>
-      <nobr>Y<img src="pic/handalfa/y.svg" style="position:relative;top:11.783px;"></nobr>
-      <nobr>Z<img src="pic/handalfa/z.svg"></nobr>
-      <nobr>Å<img src="pic/handalfa/aa.svg"></nobr>
-      <nobr>Ä<img src="pic/handalfa/ae.svg"></nobr>
-      <nobr>Ö<img src="pic/handalfa/oe.svg"></nobr>
+    <figure style="float:right;margin-top:0">
+      <a href="pic/fingerspelling.jpg"><img src="pic/fingerspelling.jpg"
+        width=476 height=207 border=1 style="max-height:unset"></a>
+      <figcaption align=center>ASLWrites handalfabet (för höger hand).</figcaption>
     </figure>
 
-    <p>Det amerikanska handalfabetet utom de bokstäver som vars tecken
-    innehåller rörelse (J och Z).
+    <p>Det finns flera sätt att skriva det svenska handalfabetet med
+    teckenskrift. Om man vill vara noggrann så kan man
+    använda <a href="./#kant">kantmarkörer</a> för att skriva ut handens
+    orientering i varje enskild bokstav. För enkelhets skull utelämnar man dock
+    ofta dessa.
+
+    <p>Notera att teckenskriftssymbolerna skrivs spegelvänt om det är en
+    vänsterhänt person som tecknar. (Läsordningen förblir fortfarande densamma,
+    oavsett vilken hand som används.)
+
+    <p>Följande är den vanligaste/enklaste varianten att skriva handalfabetet
+    skrivs på:
+
+    <figure class=handalfa>
+      <style>
+        figure.handalfa {
+          --hmarg: .25rem;
+          --vmarg: .5rem;
+          margin: 0 calc(var(--hmarg) * -1);
+        }
+        figure.handalfa div {
+          margin: var(--vmarg) var(--hmarg);
+          padding: .25rem .1875rem 0;
+          font: bold 1.4em/1.5 sans, sans-serif;
+          text-align: center;
+          border: 1px solid black;
+          display: inline-block;
+        }
+        figure.handalfa img[src$=".png"] {
+          width: 72px;
+          display: block;
+        }
+        figure.handalfa [x] {
+        background: pink;
+        }
+      </style>
+      <div><img src="pic/alfa/a.png">A</div>
+      <div><img src="pic/alfa/b.png">B</div>
+      <div><img src="pic/alfa/c.png">C</div>
+      <div><img src="pic/alfa/d.png">D</div>
+      <div><img src="pic/alfa/e.png">E</div>
+      <div><img src="pic/alfa/f.png">F</div>
+      <div><img src="pic/alfa/g.png">G</div>
+      <div><img src="pic/alfa/h.png">H</div>
+      <div><img src="pic/alfa/i.png">I</div>
+      <div><img src="pic/alfa/j.png">J</div>
+      <div><img src="pic/alfa/k.png">K</div>
+      <div><img src="pic/alfa/l.png">L</div>
+      <div><img src="pic/alfa/m.png">M</div>
+      <div><img src="pic/alfa/n.png">N</div>
+      <div><img src="pic/alfa/o.png">O</div>
+      <div><img src="pic/alfa/p.png">P</div>
+      <div><img src="pic/alfa/q.png">Q</div>
+      <div><img src="pic/alfa/r.png">R</div>
+      <div><img src="pic/alfa/s.png">S</div>
+      <div><img src="pic/alfa/t.png">T</div>
+      <div><img src="pic/alfa/u.png">U</div>
+      <div><img src="pic/alfa/v.png">V</div>
+      <div><img src="pic/alfa/w.png">W</div>
+      <div><img src="pic/alfa/x.png">X</div>
+      <div><img src="pic/alfa/y.png">Y</div>
+      <div><img src="pic/alfa/z.png">Z</div>
+      <div><img src="pic/alfa/aa.png">Å</div>
+      <div><img src="pic/alfa/ae.png">Ä</div>
+      <div><img src="pic/alfa/oe.png">Ö</div>
+    </figure>
+
+    <p>Man kan också skriva handalfabetet med mer detaljerad information om
+    handorientering etc (men eftersom det blir plottrigare och tar längre tid
+    att både läsa och skriva, är det mindre vanligt att det skrivs på detta
+    sätt). – Med mer detaljerad stavning kan det se ut såhär (notera det större
+    antalet <a href="./#kant">kantmarkörer</a> som används här, jämfört med
+    ovan).
+
+    <figure class=handalfa>
+      <div><img src="pic/alfa2/a.png">A</div>
+      <div><img src="pic/alfa2/b.png">B</div>
+      <div><img src="pic/alfa2/c.png">C</div>
+      <div><img src="pic/alfa2/d.png">D</div>
+      <div><img src="pic/alfa2/e.png">E</div>
+      <div><img src="pic/alfa2/f.png">F</div>
+      <div><img src="pic/alfa2/g.png">G</div>
+      <div><img src="pic/alfa2/h.png">H</div>
+      <div><img src="pic/alfa2/i.png">I</div>
+      <div><img src="pic/alfa2/j.png">J</div>
+      <div><img src="pic/alfa2/k.png">K</div>
+      <div><img src="pic/alfa2/l.png">L</div>
+      <div><img src="pic/alfa2/m.png">M</div>
+      <div><img src="pic/alfa2/n.png">N</div>
+      <div><img src="pic/alfa2/o.png">O</div>
+      <div><img src="pic/alfa2/p.png">P</div>
+      <div><img src="pic/alfa2/q.png">Q</div>
+      <div><img src="pic/alfa2/r.png">R</div>
+      <div><img src="pic/alfa2/s.png">S</div>
+      <div><img src="pic/alfa2/t.png">T</div>
+      <div><img src="pic/alfa2/u.png">U</div>
+      <div><img src="pic/alfa2/v.png">V</div>
+      <div><img src="pic/alfa2/w.png">W</div>
+      <div><img src="pic/alfa2/x.png">X</div>
+      <div><img src="pic/alfa2/y.png">Y</div>
+      <div><img src="pic/alfa2/z.png">Z</div>
+      <div><img src="pic/alfa2/aa.png">Å</div>
+      <div><img src="pic/alfa2/ae.png">Ä</div>
+      <div><img src="pic/alfa2/oe.png">Ö</div>
+    </figure>
+
+    <p>Och nedan har vi det amerikanska handalfabetet (såsom det används med
+    ASLWrite). Notera att eftersom handsymbolerna skrivs ur perspektivet man
+    ser händerna i om man iakttar sitt eget tecknande, så är symbolerna
+    spegelvända i förhållande till bilderna ur videon nedan:
 
     <p>
     <table border=1 class=inline>
@@ -212,7 +280,7 @@
       <p id="asl-meredith-2016">ASL Meredith. 2016. <i>Learn ASL: The
         Fingerspelling Alphabet for
         Beginners</i>. <a href="https://youtu.be/fXf4d23WqiA">https://<wbr>youtu.be/<wbr>fXf4d23WqiA</a>
-        (besökt 2010-04-07).
+        (besökt 2019-04-07).
     </div>
   </section>
   <footer style="margin:1em 0; line-height:1.5">
