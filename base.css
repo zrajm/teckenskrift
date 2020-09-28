@@ -36,6 +36,23 @@ ol, figure {
     list-style: upper-roman inside none;
 }
 
+ul {
+    list-style: none;
+    margin: 1.5rem 0;
+}
+ul ul {
+    margin: 0;
+}
+ul > li:before {
+    content: "⏺";
+    width: 1.5rem;
+    display: inline-block;
+    margin-left: -1.5rem;
+}
+ul > li {
+    padding-left: 2rem;
+}
+
 a {
     text-decoration: none;
     color: #1a0dab;
