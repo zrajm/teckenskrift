@@ -1,20 +1,20 @@
 # Teckenskrift
 
-*Teckenskrift* (or *SSLWrite* in English) is a writing system for Swedish Sign
-Language. It differs from the [SSL transcription system] used by sign language
+*Teckenskrift* (or *STSwrite* in English) is a writing system for Swedish Sign
+Language. It differs from the [STS transcription system] used by sign language
 researchers in that it is simpler in structure and easier to read and write.
 Much of this ease-of-use comes form taking advantage of the two dimensional
 writing surface to portray motion.
 
-SSLWrite is very similar to ASLWrite with only some minor adaptions made for
+STSwrite is very similar to ASLWrite with only some minor adaptions made for
 Swedish Sign Language. [ASLWrite], in turn, is a writing system developed for
 American Sign Language by Adrean Clark, Jules Dameron, Robert Arnold and many
 others.
 
-This repository contains an introduction to SSLWrite, plus assorted notes
+This repository contains an introduction to STSwrite, plus assorted notes
 collected during my attempts to understand all the various aspects of ASLWrite.
 
-Since my writings on SSLWrite are primarily indended for a Swedish audience
+Since my writings on STSwrite are primarily indended for a Swedish audience
 (more specifically users of Swedish Sign Language) everything here is written
 in Swedish. Stuff of a more technical nature (like code, this README and commit
 messages, etc) are written in English to make them accessible to my secondary
@@ -22,13 +22,13 @@ audience (international sign language researchers and hackers).
 
 [ASLWrite]: https://en.wikipedia.org/wiki/ASLwrite
 
-[SSL transcription system]: https://zrajm.github.io/teckentranskription/intro.html
+[STS transcription system]: https://zrajm.github.io/teckentranskription/intro.html
 
 
 ## About Me
 
 I'm [zrajm], a (hearing) student of sign language linguistics at Stockholm
-University. SSLWrite grew out of my frustration with not being able to write
+University. STSwrite grew out of my frustration with not being able to write
 sign language directly. (I wanted to be able to later look up an unrecognized
 sign, or to write down new signs enocuntered during lectures.)
 

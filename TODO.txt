@@ -28,7 +28,7 @@
 ** TODO Reorder and/or recategorize handshapes
    Maybe order by frequency of occurrence, based on corpus data?
 ** TODO Add more fingerspelling examples
-** TODO Change favicon to SSLWrite handshape 'spread hand' symbol
+** TODO Change favicon to STSwrite handshape 'spread hand' symbol
 ** TODO Add sentence examples
    (from Bergman's grammatical compendium?)
 
@@ -75,7 +75,7 @@
    segments there described – which the other realization of [m] looks like
    what they there describe as /bilabial/.
 ** TODO Add [ɧ], [ɕ] and [ŋ] (“Svenska munbilder” section)
-** TODO Give SSLWrite symbol to all mouth segments (“Svenska munbilder” section)
+** TODO Give STSwrite symbol to all mouth segments (“Svenska munbilder” section)
 ** TODO Categorize all mouth segments (“Svenska munbilder” section)
 ** TODO Compare “Svenska munbilder” section with someone else's work
    Have we drawn similar conclusions? Categorized the same mouth shapes as
@@ -119,7 +119,7 @@
    Code should be released under GNU, but other text under Creative Commons.
 ** DONE Move TODO comments in 'index.html' to this file
    CLOSED: [2019-02-23 Sat 22:45]
-** [8/8] Move SSLWrite into its own git repo
+** [8/8] Move STSwrite into its own git repo
 *** DONE Add GitHub pages redirects from old places to new
     CLOSED: [2019-02-24 Sun 04:31]
     Redirect using HTTP refresh?
