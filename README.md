@@ -6,13 +6,13 @@ researchers in that it is simpler in structure and easier to read and write.
 Much of this ease-of-use comes form taking advantage of the two dimensional
 writing surface to portray motion.
 
-STSwrite is very similar to ASLWrite with only some minor adaptions made for
-Swedish Sign Language. [ASLWrite], in turn, is a writing system developed for
+STSwrite is very similar to ASLwrite with only some minor adaptions made for
+Swedish Sign Language. [ASLwrite], in turn, is a writing system developed for
 American Sign Language by Adrean Clark, Jules Dameron, Robert Arnold and many
 others.
 
 This repository contains an introduction to STSwrite, plus assorted notes
-collected during my attempts to understand all the various aspects of ASLWrite.
+collected during my attempts to understand all the various aspects of ASLwrite.
 
 Since my writings on STSwrite are primarily indended for a Swedish audience
 (more specifically users of Swedish Sign Language) everything here is written
@@ -20,7 +20,7 @@ in Swedish. Stuff of a more technical nature (like code, this README and commit
 messages, etc) are written in English to make them accessible to my secondary
 audience (international sign language researchers and hackers).
 
-[ASLWrite]: https://en.wikipedia.org/wiki/ASLwrite
+[ASLwrite]: https://en.wikipedia.org/wiki/ASLwrite
 
 [STS transcription system]: https://zrajm.github.io/teckentranskription/intro.html
 
