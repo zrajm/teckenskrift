@@ -1,96 +1,97 @@
-/* Copyright 2016-2020 by zrajm. Released under GPLv3 license. */
+/*-*-css-indent-offset:2-*-*/
+/* Copyright 2016-2022 by zrajm. Released under GPLv3 license. */
 
 /* Default font: FreeSans-SWL */
 @font-face {
-    font-family: "FreeSans-SWL";
-    src: url("freesans-swl.ttf");
-    font-display: swap;
+  font-family: "FreeSans-SWL";
+  src: url("freesans-swl.ttf");
+  font-display: swap;
 }
 html { font-family: "FreeSans-SWL", "FreeSans", sans-serif; }
 button, input, select, textarea { font-family: inherit; }
 
 * {
-    margin: 0;
-    padding: 0;
-    caret-color: rgb(173, 189, 224); /* focus outline color */
+  margin: 0;
+  padding: 0;
+  caret-color: rgb(173, 189, 224); /* focus outline color */
 }
 
 /* Make body fill at least first screen. */
 /* http://stackoverflow.com/q/17555682/ */
 html { height: 100%; overflow-y: scroll; }
 body {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 *:not(td) { box-sizing: border-box; }
 :focus, .nostyle:focus {
-    outline: 0;
-    box-shadow: 0 0 0 3px rgb(173, 189, 224); /* focus outline */
-    z-index: 10;
-    position: relative;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgb(173, 189, 224); /* focus outline */
+  z-index: 10;
+  position: relative;
 }
 
 p, ol, figure { margin: 1em 0; }
 ol, figure {
-    margin-left: 1em;
-    list-style: upper-roman inside none;
+  margin-left: 1em;
+  list-style: upper-roman inside none;
 }
 
 ul {
-    list-style: none;
-    margin: 1.5rem 0;
+  list-style: none;
+  margin: 1.5rem 0;
 }
 ul ul {
-    margin: 0;
+  margin: 0;
 }
 ul > li:before {
-    content: "⏺";
-    width: 1.5rem;
-    display: inline-block;
-    margin-left: -1.5rem;
+  content: "⏺";
+  width: 1.5rem;
+  display: inline-block;
+  margin-left: -1.5rem;
 }
 ul > li {
-    padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 a {
-    text-decoration: none;
-    color: #1a0dab;
+  text-decoration: none;
+  color: #1a0dab;
 }
 a:focus,
 a:hover { text-decoration: underline; }
 
 mark {
-    background: rgba(255, 193, 0, .6);
-    color: inherit;
+  background: rgba(255, 193, 0, .6);
+  color: inherit;
 }
 
 img { max-height: 175px; }
 
 body {
-    font-size: 22px;
-    /* line-height need to be >1.25 not to leave remains of FreeSans-SWL relation
-    diacritics on previous line when column breaking */
-    line-height: 1.5;
-    margin: .25em .5em;
+  font-size: 22px;
+  /* line-height need to be >1.25 not to leave remains of FreeSans-SWL relation
+  diacritics on previous line when column breaking */
+  line-height: 1.5;
+  margin: .25em .5em;
 }
 
 noscript {
-    z-index: 1;
-    position: fixed;
-    background: #ff2;
-    text-align: center;
-    top: 0; left: 0; width:100%;
-    font-weight: bold;
+  z-index: 1;
+  position: fixed;
+  background: #ff2;
+  text-align: center;
+  top: 0; left: 0; width:100%;
+  font-weight: bold;
 }
 noscript.required {
-    font-size: 72px;
-    line-height: 1.5;
-    padding: .25em .5em;
-    box-shadow: .25em .25em .25em rgba(0, 0, 0, .5),
-        0 0 0 3000px rgba(0, 0, 0, .5);
-    top: 30%; left: 50%; width: inherit;
-    transform: translate(-50%, -30%);
+  font-size: 72px;
+  line-height: 1.5;
+  padding: .25em .5em;
+  box-shadow: .25em .25em .25em rgba(0, 0, 0, .5),
+    0 0 0 3000px rgba(0, 0, 0, .5);
+  top: 30%; left: 50%; width: inherit;
+  transform: translate(-50%, -30%);
 }
 
 .hide { display: none !important; }
@@ -101,84 +102,84 @@ noscript.required {
 /* table, td { outline: 1px solid rgba(0,0,0,.3); } */
 
 .FIXME {
-    /* background: red; */
+  /* background: red; */
 }
 
 #status {
-    padding: 13px 13px;
-    margin: 6px 0 13px 0;
-    border: 1px inset #eee;
-    background: #eee;
+  padding: 13px 13px;
+  margin: 6px 0 13px 0;
+  border: 1px inset #eee;
+  background: #eee;
 }
 
 .big { font-size: 75px; }
 
 table[border="1"] td { border: none; }
 table[border="1"] {
-    border-collapse: collapse;
-    border: 1px solid black;
-    text-align: center;
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
 }
 
 table {
-    position: relative;
-    border-collapse: separate;
-    border-spacing: 3px;
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 3px;
 }
 
 /******************************************************************************/
 
 footer {
-    opacity: .75;
-    font-size: 80%;
-    margin: .5em 0;
-    text-align: center;
-    margin-top: auto;
+  opacity: .75;
+  font-size: 80%;
+  margin: .5em 0;
+  text-align: center;
+  margin-top: auto;
 }
 
 /******************************************************************************/
 
 /* Button margins & layout. */
 button, select, input, textarea {
-    background: #eee;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
-    border: 0;
-    border-radius: 2px;
-    color: inherit;
-    font-size: inherit;
-    margin: 3px;
-    padding: 6px 13px;
+  background: #eee;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  border: 0;
+  border-radius: 2px;
+  color: inherit;
+  font-size: inherit;
+  margin: 3px;
+  padding: 6px 13px;
 }
 button.nostyle, select.nostyle, input.nostyle, textarea.nostyle {
-    box-shadow: none;
-    border: 0;
-    margin: 0;
-    padding: 0;
+  box-shadow: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 textarea:not([disabled]):hover,
 button:not([disabled]):hover,
 select:not([disabled]):hover {
-    box-shadow: inset 1000px 1000px rgba(255, 255, 255, .25),/* lighten */
-        0 3px 6px 2px rgba(0, 0, 0, .1);                     /* shadow */
+  box-shadow: inset 1000px 1000px rgba(255, 255, 255, .25),/* lighten */
+    0 3px 6px 2px rgba(0, 0, 0, .1);                       /* shadow */
 }
 textarea:not([disabled]):hover:focus,
 button:not([disabled]):hover:focus,
 select:not([disabled]):hover:focus {
-    box-shadow: inset 1000px 1000px rgba(255, 255, 255, .25),/* lighten */
-        0 3px 6px 2px rgba(0, 0, 0, .1),                     /* shadow */
-        0 0   0   3px rgb(173, 189, 224);                    /* focus outline */
+  box-shadow: inset 1000px 1000px rgba(255, 255, 255, .25),/* lighten */
+    0 3px 6px 2px rgba(0, 0, 0, .1),                       /* shadow */
+    0 0   0   3px rgb(173, 189, 224);                      /* focus outline */
 }
 
 button, select {
-    padding: .2em .125em .125em .125em;
-    margin: 2px 1.5px;
-    color: rgba(0,0,0,.75)
+  padding: .2em .125em .125em .125em;
+  margin: 2px 1.5px;
+  color: rgba(0,0,0,.75)
 }
 select option { background-color: #fff; }
 
 :target {
-    background: rgba(0, 0, 255, .2);
+  background: rgba(0, 0, 255, .2);
 }
 
 video {
@@ -186,21 +187,21 @@ video {
 }
 
 figure.gallery {
-    --hmarg: .25rem;
-    --vmarg: .5rem;
-    margin: 0 calc(var(--hmarg) * -1);
+  --hmarg: .25rem;
+  --vmarg: .5rem;
+  margin: 0 calc(var(--hmarg) * -1);
 }
 figure.gallery > div {
-    margin: var(--vmarg) var(--hmarg);
-    padding: .25rem .1875rem 0;
-    font: bold 1.4em/1.5 sans, sans-serif;
-    text-align: center;
-    border: 1px solid black;
-    display: inline-block;
+  margin: var(--vmarg) var(--hmarg);
+  padding: .25rem .1875rem 0;
+  font: bold 1.4em/1.5 sans, sans-serif;
+  text-align: center;
+  border: 1px solid black;
+  display: inline-block;
 }
 figure.gallery img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 /*[eof]*/
