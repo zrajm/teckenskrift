@@ -904,10 +904,6 @@
   </figure>
 
   <style>
-    .purple { background: rgba(255, 0, 255, .3);
-  </style>
-
-  <style>
     table.adverbials {
       table-layout: fixed;
       border: 0 !important;
@@ -917,8 +913,21 @@
     table.adverbials th {
       vertical-align: top;
       padding: .125rem !important;
-      border: 1px solid #000 !important;
+      border: 1px solid #0004 !important;
+      border-bottom: 1px solid #0004 !important;
+      border-top: 1px solid #0004 !important;
     }
+    table.adverbials th { border-left: 2px solid #000 !important; }
+    table.adverbials th,
+    table.adverbials td:last-child,
+    table.adverbials .rb { border-right: 2px solid #000 !important; }
+    table.adverbials tr.tb th { border-top: 2px solid #000 !important; }
+    table.adverbials tr:last-child td,
+    table.adverbials tr:last-child th {
+      border-bottom: 2px solid #000 !important;
+    }
+    table.adverbials .purple { background: #f0f4; }
+
     table.adverbials caption,
     table.adverbials th {
       font-size: .8rem;
@@ -926,7 +935,7 @@
       vertical-align: middle !important;
       text-align: center;
     }
-    table.adverbials th:empty { border: 0 !important }
+    table.adverbials tr:first-child th { border: 0 !important; }
     table.adverbials td         img       { height: 100px; width: 84px; background: #fff; filter: grayscale(1); }
     table.adverbials td         img:not([src]) { visibility: hidden; }
     table.adverbials td > div + div,
@@ -949,7 +958,7 @@
     <tr>
       <th colspan=4></th>
       <th colspan=4 class=FIXME>Är de här två munbilderna synonyma?
-    <tr>
+    <tr class=tb>
       <th>
       <th><img src="pic/mun/sucked-cheeks.svg"> ⟦)(⟧<sup><a href="#fn4">[4]</a></sup>
       <th colspan=2><img src="pic/mun/pursed-lips.svg"> ⟦β⟧<sup><a href="#fn1">[1]</a></sup>
@@ -961,146 +970,160 @@
       <th><img src="pic/mun/clenched-teeth.svg"><img src="pic/mun/wide-open-mouth.svg"> ⟦ia⟧
       <th><img src="pic/mun/flat-lips.svg"><img src="pic/mun/round-mouth.svg"> ⟦må⟧
     <tr>
+      <th>
+      <th>[)(]
+      <th colspan=2>[u]
+      <th colspan=2 class=FIXME>[m]
+      <th colspan=2 class=FIXME>[m]
+      <th colspan=2>[i]
+      <th>[()]
+      <th class=FIXME>[th]
+      <th>[sa] / [ja]
+      <th>[må]
+    <tr>
       <th><a href="#bergman-wallin-2001">Bergman & Wallin (2001)</a>
-      <td>
-      <td colspan=2><img src="pic/munbild/bergman/pursed.png">
+      <td class="rb blue"><img src="pic/munbild/spsm/smal-1.png">
+        /sucked/ <sup><a href="#fn4">[4]</a></sup>
+      <td colspan=2 class=rb><img src="pic/munbild/bergman/pursed.png">
         /pursed/
-      <td colspan=2 class=blue><img src="pic/munbild/other/pouted.png">
+      <td colspan=2 class="rb blue"><img src="pic/munbild/other/pouted.png">
         /pouted/ <sup><a href="#fn3">[3]</a></sup>
-      <td colspan=2><img src="pic/munbild/bergman/bilabial.png">
+      <td colspan=2 class=rb><img src="pic/munbild/bergman/bilabial.png">
         /bilabial/
-      <td colspan=2><img src="pic/munbild/bergman/stretched.png">
+      <td colspan=2 class=rb><img src="pic/munbild/bergman/stretched.png">
         /stretched/
-      <td><img src="pic/munbild/bergman/cheeks.png">
+      <td class=rb><img src="pic/munbild/bergman/cheeks.png">
         /cheeks/
-      <td><img src="pic/munbild/bergman/forward-tongue-down.png">
+      <td class=rb><img src="pic/munbild/bergman/forward-tongue-down.png">
         /forward<sub>tongue</sub>/
-      <td><div>
+      <td class=rb><div>
           <img src="pic/munbild/bergman/stretched.png">
           <img src="pic/munbild/bergman/open.png">
         </div> /stretched/ + /open/
-      <td><div>
+      <td class=rb><div>
           <img src="pic/munbild/bergman/bilabial.png">
           <img src="pic/munbild/bergman/round.png">
         </div> /bilabial/ + /round/
     <tr>
       <th><a href="#mesch-2001">Mesch (2001)</a>
-      <td>
+      <td class=rb>
       <td><img src="pic/munbild/mesch/beta-a.png">
         <img src="pic/munbild/mesch/tunn.png">
         [u] tunn, liten, syns som en prick långt borta (ofta med lätt kisande
         ögon)
-      <td class=purple><img><img src="pic/munbild/mesch/lattsamt.png">
+      <td class="rb purple"><img src="pic/munbild/mesch/beta-a.png">
+        <img src="pic/munbild/mesch/lattsamt.png">
         [u] lättsamt
       <td><img src="pic/munbild/mesch/m1-a.png"><img>
         [mm] så här mycket, ungefär så långt, lagom
-      <td class=purple><img><img src="pic/munbild/mesch/normalt.png">
+      <td class="rb purple"><img src="pic/munbild/mesch/m1-a.png">
+        <img src="pic/munbild/mesch/normalt.png">
         [m] normalt, van
       <td>
-      <td class=purple>
+      <td class="rb purple">
       <td>
-      <td class=purple><img><img>[i] ansträngt, besvärligt
-      <td><img src="pic/munbild/mesch/paren-a.png">
+      <td class="rb purple"><img><img>[i] ansträngt, besvärligt
+      <td class=rb><img src="pic/munbild/mesch/paren-a.png">
         <img src="pic/munbild/mesch/stor.png">
         [()] tjock, geleaktig, massa, kraftig, grov
-      <td class=purple>
-      <td><div>
+      <td class="rb purple">
+      <td class=rb><div>
           <img src="pic/munbild/mesch/sa-a1.png">
           <img src="pic/munbild/mesch/sa-a2.png">
         </div><img> [ja] enorm, stor, oändlig (kort intensiv rörelse)
-      <td>
+      <td class=rb>
     <tr>
       <th><a href="#birger-sjoberggymnasiet-2012">Birger Sjöberg­gymnasiet (2012)</a>
-      <td>
+      <td class=rb>
       <td>
         <img src="pic/munbild/birger/beta-a.png">
         [U] liten, små, smal, tunn (ögonen kisar)
-      <td class=purple>
+      <td class="rb purple">
       <td>
-      <td class=purple>
+      <td class="rb purple">
       <td>
         <img src="pic/munbild/birger/m2-a.png">
         [M] lagom stor, ungefär så här, lagom
-      <td class=purple>
+      <td class="rb purple">
       <td>
         <img src="pic/munbild/birger/i-a.png">
         [I] mycket lång
-      <td class=purple>
-      <td>
+      <td class="rb purple">
+      <td class=rb>
         <img src="pic/munbild/birger/paren-a.png">
         [()] mjuk, tjock
-      <td class=purple>
-      <td><div>
+      <td class="rb purple">
+      <td class=rb><div>
           <img src="pic/munbild/birger/sa-a1.png">
           <img src="pic/munbild/birger/sa-a2.png">
         </div> [SA] stor, mycket stor, jättestor (markerad rörelse)
-      <td><div>
+      <td class=rb><div>
           <img src="pic/munbild/birger/maa-a1.png">
           <img src="pic/munbild/birger/maa-a2.png">
         </div> [MÅ] liten, mycket liten, jätteliten (huvudet slås fram)
     <tr>
       <th><a href="#isof-2015"><abbr>ISOF</abbr> (2015)</a>
-      <td>
+      <td class=rb>
       <td><img src="pic/munbild/isf/beta-a.png">
         liten
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/isf/beta-b.png">
         lättsamt
       <td>
-      <td class=purple>
+      <td class="rb purple">
       <td>
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/isf/m2-b.png">
         bestämt
       <td>
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/isf/i-b.png">
         mödosamt
-      <td>
-      <td class=purple>
-      <td><div>
+      <td class=rb>
+      <td class="rb purple">
+      <td class=rb><div>
           <img src="pic/munbild/isf/sa-a1.png">
           <img src="pic/munbild/isf/sa-a2.png">
         </div> stor
-      <td>
+      <td class=rb>
     <tr>
       <th><a href="#balkstam-mfl-2016">Balkstam m.fl. (2016)</a>
-      <td>
+      <td class=rb>
       <td><img src="pic/munbild/balkstam/beta-a.png">
         [U] liten, tunn, små, kort
-      <td class=purple><img src="pic/munbild/balkstam/beta-b.png">
+      <td class="rb purple"><img src="pic/munbild/balkstam/beta-b.png">
         [U] utan speciell ansträngning, lättsamt; lätt, lugnt, snabbt, sakta
       <td><img src="pic/munbild/balkstam/m1-a.png">
         [M] normal
-      <td class=purple><img src="pic/munbild/balkstam/m1-b.png">
+      <td class="rb purple"><img src="pic/munbild/balkstam/m1-b.png">
         [M] normalt, neutralt; normalt, van, neutralt
       <td>
-      <td class=purple>
+      <td class="rb purple">
       <td><img src="pic/munbild/balkstam/i-a.png">
         [I] stor, lång, hög
-      <td class=purple><img src="pic/munbild/balkstam/i-b.png">
+      <td class="rb purple"><img src="pic/munbild/balkstam/i-b.png">
         [I] intensivt, hårt; fort, tungt, ansträngt, besvärligt
-      <td><img src="pic/munbild/balkstam/paren-a.png">
+      <td class=rb><img src="pic/munbild/balkstam/paren-a.png">
         [()] tjock, mjuk
-      <td class=purple>
-      <td><div>
+      <td class="rb purple">
+      <td class=rb><div>
           <img src="pic/munbild/balkstam/sa-a1.png">
           <img src="pic/munbild/balkstam/sa-a2.png">
         </div> [SA] jättestor, enorm
-      <td><div>
+      <td class=rb><div>
           <img src="pic/munbild/balkstam/maa-a1.png">
           <img src="pic/munbild/balkstam/maa-a2.png">
         </div> [MÅ] pytteliten, väldigt liten
     <tr>
       <th><a href="#spsm-2020"><abbr>SPSM</abbr> (2020)</a>
-      <td>
-        <img src="pic/munbild/spsm/smal-1.png">
+      <td class=rb>
+        <img src="pic/munbild/spsm/smal-1.png"><img>
         väldigt smal
       <td>
         <img src="pic/munbild/spsm/tunn-1.png">
         <img src="pic/munbild/spsm/tunn-2.png">
         [u] mycket tunn, väldigt liten
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/spsm/latt-1.png">
         <img src="pic/munbild/spsm/latt-2.png">
         lätt, utan ansträngning
@@ -1108,33 +1131,33 @@
         <img src="pic/munbild/spsm/lagom-1.png">
         <img src="pic/munbild/spsm/lagom-2.png">
         lagom
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/spsm/lugn-1.png">
         <img src="pic/munbild/spsm/lugn-2.png">
         lugnt, avslappnat
       <td>
-      <td class=purple>
+      <td class="rb purple">
       <td>
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/spsm/anstrangt-1.png">
         <img src="pic/munbild/spsm/anstrangt-2.png">
         ansträngt, intensivt, med ansträngning
-      <td>
+      <td class=rb>
         <img src="pic/munbild/spsm/tjock-1.png">
         <img src="pic/munbild/spsm/tjock-2.png">
         tjock
-      <td class=purple>
+      <td class="rb purple">
         <img src="pic/munbild/spsm/slarvigt-1.png">
         <img src="pic/munbild/spsm/slarvigt-2.png">
         slarvigt (rörigt?)
-      <td><div>
+      <td class=rb><div>
           <img src="pic/munbild/spsm/stor-1a.png">
           <img src="pic/munbild/spsm/stor-1b.png">
         </div><div>
           <img src="pic/munbild/spsm/stor-2a.png">
           <img src="pic/munbild/spsm/stor-2b.png">
         </div> [sa] stor
-      <td><div>
+      <td class=rb><div>
           <img src="pic/munbild/spsm/liten-1a.png">
           <img src="pic/munbild/spsm/liten-1b.png">
         </div><div>
@@ -1571,7 +1594,10 @@
       beskrivs där endast som <b>[−open, +forward]</b>.
 
     <p id=fn4><sup>4</sup> Transkriptionen ⟦)(⟧ av den här munbilden är min
-      egen, men en logisk invertering av ⟦()⟧ ’uppblåsta kinder’.
+      egen, men en logisk invertering av ⟦()⟧ ’uppblåsta kinder’. Hittills har
+      jag har bara sett den här munbilden i en enda
+      källa, <a href="#spsm-2020"><abbr>SPSM</abbr> (2020</a>), som dessutom
+      inte ger något exempel på dess användning.
 
     <p id=fn5><sup>5</sup> Ett tonalitetspar är två (talspråks-)fonem som båda
       har samma artikulationsställe och artikulationssätt – den enda skillnaden
