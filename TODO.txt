@@ -28,7 +28,6 @@
 ** TODO Reorder and/or recategorize handshapes
    Maybe order by frequency of occurrence, based on corpus data?
 ** TODO Add more fingerspelling examples
-** TODO Change favicon to STSwrite handshape 'spread hand' symbol
 ** TODO Add sentence examples
    (from Bergman's grammatical compendium?)
 
@@ -87,6 +86,8 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Change favicon to STSwrite handshape
+   CLOSED: [2023-09-12 Tue 15:00]
 ** DONE Add pictures of hands above example ’fingerbetet’
    CLOSED: [2019-02-25 Mon 16:00]
 ** DONE Remove 'strömarkör'
