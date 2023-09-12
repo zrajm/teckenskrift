@@ -1,5 +1,5 @@
 //-*-js-indent-level:2-*-
-// Copyright 2019-2022 by zrajm. Released under GPLv3 license.
+// Copyright 2019-2022 by zrajm. Licenses: CC BY-SA (text), GPLv2 (code).
 /*
 Add links (to itself) to all elements with 'id' attribute, except for <section>
 and <div>, where the link is instead added to the first child element
