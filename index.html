@@ -1,106 +1,102 @@
 <!DOCTYPE html><!--*-ispell-dictionary:"sv";js-indent-level:2;css-indent-offset:2-*-->
-<html>
-<head>
-  <!-- Copyright 2018-2022 by zrajm. Released under GPLv3 license. -->
-  <meta charset="UTF-8">
-  <title>Teckenskrift – Att skriva teckenspråk</title>
-  <link rel=stylesheet href="base.css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <style>
-    h1 { margin: 1em 0; }
+<!-- Copyright 2018-2022 by zrajm. Released under GPLv3 license. -->
+<meta charset="UTF-8">
+<title>Teckenskrift – Att skriva teckenspråk</title>
+<link rel=stylesheet href="base.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<style>
+  h1 { margin: 1em 0; }
 
-    section { margin-top: 1em; margin-bottom: 1em; }
+  section { margin-top: 1em; margin-bottom: 1em; }
 
-    table.inline {
-      display: inline-table;
-      margin: 0em;
-    }
-    table th,
-    table td {
-      text-align: center;
-    }
-    table[border]:not([border="0"]) {
-      border-collapse: collapse;
-      border: 1px solid black;
-    }
-    table[border]:not([border="0"]) th,
-    table[border]:not([border="0"]) td {
-      text-align: center;
-      padding: .125em .25em;
-      border: 1px solid black;
-    }
-    .border { border: 1px solid black; }
-    .shaded { opacity: .4; }
-    .blue { background: rgba(0, 0, 255, .2); }
-    .trans { font-size: 200%; }
-    .trans img { height: 28px; }
-    .grey { background: rgba(127, 127, 127, .25); }
-    .space + .space { margin-left: 20px; }
+  table.inline {
+    display: inline-table;
+    margin: 0em;
+  }
+  table th,
+  table td {
+    text-align: center;
+  }
+  table[border]:not([border="0"]) {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+  table[border]:not([border="0"]) th,
+  table[border]:not([border="0"]) td {
+    text-align: center;
+    padding: .125em .25em;
+    border: 1px solid black;
+  }
+  .border { border: 1px solid black; }
+  .shaded { opacity: .4; }
+  .blue { background: rgba(0, 0, 255, .2); }
+  .trans { font-size: 200%; }
+  .trans img { height: 28px; }
+  .grey { background: rgba(127, 127, 127, .25); }
+  .space + .space { margin-left: 20px; }
 
-    table { font-size: inherit; }
+  table { font-size: inherit; }
 
-    table.border-example {
-      caption-side: bottom;
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
-    table.border-example caption {
-      text-align: left;
-      padding: 0.5em 1em;
-    }
-    table.border-example th,
-    table.border-example td {
-      border: 1px solid black;
-      padding: .25em .5em;
-    }
-    .columns {
-      columns: 12em;
-      column-gap: .5em;
-      -moz-columns: 12em;
-      -moz-column-gap: .5em;
-      -webkit-columns: 12em;
-      -webkit-column-gap: .5em;
-    }
-    .columns > table {
-      break-inside: avoid-column;
-      border-collapse: collapse;
-      border: 1px solid black;
-      margin-bottom: 4px;
-      width: 100%;
-    }
-    dl {
-      margin: 1em 0;
-    }
-    dt {
-      font-weight: bold;
-    }
-    .hanging > p, p.hanging {
-      padding-left: 1em;
-      text-indent: -1em;
-    }
-    .glossary > p { margin: 0; }
-    .glossary > p > a:first-child { font-weight: bold; }
+  table.border-example {
+    caption-side: bottom;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table.border-example caption {
+    text-align: left;
+    padding: 0.5em 1em;
+  }
+  table.border-example th,
+  table.border-example td {
+    border: 1px solid black;
+    padding: .25em .5em;
+  }
+  .columns {
+    columns: 12em;
+    column-gap: .5em;
+    -moz-columns: 12em;
+    -moz-column-gap: .5em;
+    -webkit-columns: 12em;
+    -webkit-column-gap: .5em;
+  }
+  .columns > table {
+    break-inside: avoid-column;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-bottom: 4px;
+    width: 100%;
+  }
+  dl {
+    margin: 1em 0;
+  }
+  dt {
+    font-weight: bold;
+  }
+  .hanging > p, p.hanging {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+  .glossary > p { margin: 0; }
+  .glossary > p > a:first-child { font-weight: bold; }
 
-    div.handform > table { display: inline-table; margin: .25em .125em; }
-    div.handform > table td[colspan="2"] { font-size: small; }
-    div.handform > table td { border: 0 !important }
+  div.handform > table { display: inline-table; margin: .25em .125em; }
+  div.handform > table td[colspan="2"] { font-size: small; }
+  div.handform > table td { border: 0 !important }
 
-    .x2 { font-size: 1.8em; line-height: 50px !important; }
+  .x2 { font-size: 1.8em; line-height: 50px !important; }
 
-    .padded img, img.padded { margin: 10px; }
+  .padded img, img.padded { margin: 10px; }
 
-    .FIXME { background: #ff0; }
+  .FIXME { background: #ff0; }
 
-    .bokstavering {
-      font-size: 10px;
-      display: inline-block;
-    }
-    .bokstavering img {
-      vertical-align: baseline;
-    }
-  </style>
-</head>
-<body>
+  .bokstavering {
+    font-size: 10px;
+    display: inline-block;
+  }
+  .bokstavering img {
+    vertical-align: baseline;
+  }
+</style>
 
 <h1 id=teckenskrift>Teckenskrift – Att skriva teckenspråk</h1>
 
@@ -1764,5 +1760,4 @@ teckenskriften.)
         jqVideo.trigger(action);
     });
 </script>
-</body>
-</html>
+<!--[eof]-->
