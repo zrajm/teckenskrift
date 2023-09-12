@@ -86,6 +86,16 @@
 * negation
 * skriftsystem
 * Finished
+** DONE Updated jQuery version and added source map
+   CLOSED: [2023-09-12 Tue 16:01]
+   The source map requires both jquery-3.7.1.slim.min.map and the unminified
+   jquery-3.7.1.slim.js to be present, as well as the line:
+
+       //# sourceMappingURL=jquery-3.7.1.slim.min.map
+
+   To be added to the end of the minified jQuery file. (The map and unminified
+   files are only ever loaded when debug tools are used in the browser, not
+   during normal web page loading.)
 ** DONE Use GPLv2 instead of GPLv3
    CLOSED: [2023-09-12 Tue 15:22]
    Also updated all mentions of licenses to make sure they include both CC and
