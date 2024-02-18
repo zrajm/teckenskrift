@@ -1,10 +1,10 @@
 /*-*-css-indent-offset:2-*-*/
-/* Copyright 2016-2022 by zrajm. Licenses: CC BY-SA (text), GPLv2 (code). */
+/* Copyright 2016-2024 by zrajm. Licenses: CC BY-SA (text), GPLv2 (code). */
 
 /* Default font: FreeSans-SWL */
 @font-face {
   font-family: "FreeSans-SWL";
-  src: url("freesans-swl.ttf");
+  src: url("freesans-swl.woff2");
   font-display: swap;
 }
 html { font-family: "FreeSans-SWL", "FreeSans", sans-serif; }
