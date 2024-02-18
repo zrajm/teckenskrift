@@ -1,10 +1,9 @@
 <!DOCTYPE html><!--*-js-indent-level:2;css-indent-offset:2-*-->
-<!-- Copyright 2018-2022 by zrajm. Licenses: CC BY-SA (text), GPLv2 (code). -->
+<!-- Copyright 2018-2024 by zrajm. Licenses: CC BY-SA (text), GPLv2 (code). -->
 <meta charset="UTF-8">
 <title>Teckenskrift: Handsymboler</title>
 <link rel=stylesheet href="base.css">
-<link rel="icon" href="favicon.svg" sizes="any">
-<link rel="mask-icon" href="favicon.svg" color="#444"><!--Safari-->
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <style>
   section { margin-top: 1em; margin-bottom: 1em; }
   table[border]:not([border="0"]) {
@@ -27,16 +26,50 @@
     caption-side: bottom;
     border: 1px solid black;
     border-collapse: collapse;
+    line-height: 1.2;
   }
   table.border-example caption {
     text-align: left;
     padding: 0.5em 1em;
+    font-weight: normal;
   }
   table.border-example th,
   table.border-example td {
     text-align: center;
     border: 1px solid black;
-    padding: .25em .5em;
+    padding: 0 2px;
+    height: 50px;
+  }
+  table.border-example th {
+    padding-top: .125em;
+  }
+  table.border-example img:hover {
+    transform: scale(2);
+    border: solid #fff;
+    border-radius: 2px;
+    border-width: 3px 6px;
+    box-shadow: 0 2px 4px #0008;
+    background: #fff;
+    opacity: 1;
+  }
+  table.border-example img {
+    max-height: 50px;
+    max-width: 50px;
+    margin-bottom: -.25em; /* text descender height */
+  }
+  /* Cells with text. */
+  table.border-example td:nth-child(1), table.border-example td:nth-child(4) {
+    font-size: .8rem;
+  }
+  /* Cells with single letters. */
+  table.border-example td:nth-child(5), table.border-example td:nth-child(11) {
+    font-size: 150%;
+    white-space: nowrap;
+  }
+  table.border-example td:nth-child(5) img {
+    display: inline;
+    height: .8em;
+    margin-bottom: 0;
   }
   table { caption-side: bottom; }
   table caption { text-align: left; font-weight: bold; }
@@ -64,10 +97,6 @@
   dt {
     font-weight: bold;
   }
-  a[href^="#"] {
-    font-style: italic;
-  }
-
   .hanging > p, p.hanging {
     padding-left: 1em;
     text-indent: -1em;
@@ -82,6 +111,7 @@
 
   .padded img, img.padded { margin: 10px; }
   table.inline { display: inline-table; }
+  .vert { writing-mode: vertical-rl; }
 </style>
 
 <h1>Teckenskrift: Handsymboler</h1>
@@ -125,18 +155,19 @@ Font for ASL: Symbol Comparison Table</a>.
   <h1>Nya handformer från ASLwrites fejsbokgrupp</h1>
 
   <figure>
-    <img src="pic/asl/new-digits.jpg" style="max-height:none;height:50%">
+    <img src="pic/asl/new-digits.jpg" style="max-height:none;height:480px">
     <figcaption><a href="https://www.facebook.com/photo.php?fbid=10155323428310818"
-      target=_blank>Fejsbokpostning av Adrean Clark (20 maj 2017)</a> med nya
-      och förändrade handformer.</figcaption>
+      target=_blank>Fejsbokpostning av Adrean Clark (20 maj 2017)</a> som
+      jämför några gamla och nya handformer.</figcaption>
   </figure>
 
   <figure>
-    <img src="pic/asl/new-r.jpg" style="max-height:none;height:25%">
+    <img src="pic/asl/new-r.jpg" style="max-height:none;height:120px">
     <figcaption><a href="https://www.facebook.com/photo.php?fbid=10154650746106172&set=p.10154650746106172">Fejsbokpostning
       av Todd Hicks (22 maj 2017)</a> en kommentar på ovanstående postning.
       Beskriver tillägget av en tumlinje till symbolen för <i>korsat pek- och
-      långfinger</i> (X-handen på svenska, R-handen på ASL).</figcaption>
+      långfinger</i> (X-handen i Svenskt teckenspråk, R-handen i Amerikanskt
+      teckenspråk).</figcaption>
   </figure>
 </section>
 
@@ -195,26 +226,27 @@ Font for ASL: Symbol Comparison Table</a>.
       </ul>
     </caption>
     <tr>
-      <th rowspan=2><a href="#tfn1">Handforms­beskrivning<sup>1</sup></a>
-      <th rowspan=2>Handform
+      <th colspan=2>
       <th colspan=3>Svenskt teckenspråk
       <th colspan=6>Amerikanskt teckenspåk
     <tr>
-      <th><small>2018-05-21
-          <br>Teckenskrift</small>
-      <th>Handformens namn
-      <th>Transkriptions­symbol
-      <th><small>2018
-        <br>(<a href="https://www.facebook.com/groups/ASLwrite">Facebook group</a>)</small>
-      <th><small>2017-11-09
-          <br>(<a href="http://www.aslwrite.com/web/wp-content/uploads/2017/11/ASLwriteSummary3.pdf">ASLwrite&shy;Summary3</a>)</small>
-      <th><small>2014-06-28
-          <br>(<a href="http://www.aslwrite.com/free/extendedASLdigibetR.pdf">extended&shy;ASL&shy;digibet&shy;R</a>)</small>
-      <th><small>2013-02-23
-          <br>(<a href="http://www.aslwrite.com/free/22HWASLebookfree.pdf">22HWASL&shy;ebook&shy;free</a>)</small>
-      <th><small>2007
-          <br>(<a href="pdf/arnold-2007-a_proposal_for_a_written_system_of_asl.pdf">Arnold</a>)</small>
-      <th>Finger&shy;spelling
+      <th><span class=vert>Handforms-<br>beskrivning <a href="#tfn1"><sup>[1]</sup></a>
+      <th><span class=vert>Handform</span>
+      <th><span class=vert>2018-05-21
+          <br><small>Teckenskrift</small></span>
+      <th>Handforms-<br>namn
+      <th><span class=vert>Transkription</span>
+      <th><span class=vert>2018
+        <br><small>(<a href="https://www.facebook.com/groups/ASLwrite">Facebook group</a>)</small></span>
+      <th><span class=vert>2017-11-09
+          <br><small>(<a href="http://www.aslwrite.com/web/wp-content/uploads/2017/11/ASLwriteSummary3.pdf">ASLwrite&shy;Summary3</a>)</small></span>
+      <th><span class=vert>2014-06-28
+          <br><small>(<a href="http://www.aslwrite.com/free/extendedASLdigibetR.pdf">extended&shy;ASL&shy;digibet&shy;R</a>)</small></span>
+      <th><span class=vert>2013-02-23
+          <br><small>(<a href="http://www.aslwrite.com/free/22HWASLebookfree.pdf">22HWASL&shy;ebook&shy;free</a>)</small></span>
+      <th><span class=vert>2007
+          <br><small>(<a href="pdf/arnold-2007-a_proposal_for_a_written_system_of_asl.pdf">Arnold</a>)</small></span>
+      <th><span class=vert>Fingerspelling</span>
     <tr>
       <td><nobr>r-r-r-r-r</nobr>
       <td class=hand><img src="pic/hand2/sprethand.png">
@@ -302,7 +334,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-bbbb
       <td class=hand><img src="pic/hand2/s-hand-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/a08-x.svg">
+      <td><img class=shaded src="pic/digibet/a08-x.svg">
       <td>S-hand (B)
       <td class=trans>􌥅
       <td>
@@ -368,7 +400,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>rrrrr
       <td class=hand><img src="pic/hand2/flat-hand-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/a13.svg">
+      <td><img class=shaded src="pic/digibet/a13.svg">
       <td>flat hand (B)
       <td class=trans>􌤢
       <td>
@@ -416,7 +448,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>V-V-r-r-r
       <td class=hand><img src="pic/hand2/stor-nyphand-a.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/a16.svg">
+      <td><img class=shaded src="pic/digibet/a16.svg">
       <td>stor nyphand (B)
       <td class=trans>􌤲
       <td>
@@ -484,7 +516,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>v-r-b-r-r
       <td class=hand><img src="pic/hand2/stort-langfinger-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/a19-b.svg">
+      <td><img class=shaded src="pic/digibet/a19-b.svg">
       <td>stort långfinger (B) / böjd långfinger
       <td class=trans>􌥒<img style="vertical-align:baseline" src="pic/glyph/h-bojda-langfingret.svg">
       <td>
@@ -635,7 +667,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>RKkkk
       <td class=hand><img src="pic/hand2/knuten-hand-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/b06.svg">
+      <td><img class=shaded src="pic/digibet/b06.svg">
       <td>knuten hand (B)
       <td class=trans>􌤦
       <td><img src="pic/digibet/b06.svg">
@@ -744,7 +776,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>B-B-kkk
       <td class=hand><img src="pic/hand2/nyphand-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c03-c.svg">
+      <td><img class=shaded src="pic/digibet/c03-c.svg">
       <td>nyphand (B) / böjt pekfinger (LO-hand)
       <td class=trans>􌤩<img style="vertical-align:baseline" src="pic/glyph/h-bojda-pekfingret.svg">
       <td><img src="pic/digibet/c03-c.svg">
@@ -832,7 +864,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>B-r-BBB
       <td class=hand><img src="pic/hand2/pekfinger-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c09.svg">
+      <td><img class=shaded src="pic/digibet/c09.svg">
       <td>pekfinger / dejthand
       <td class=trans>?
       <td>
@@ -880,7 +912,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>K-bb-KK
       <td class=hand><img src="pic/hand2/dubbelkrok-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c13.svg">
+      <td><img class=shaded src="pic/digibet/c13.svg">
       <td>(samlad) dubbelkrok
       <td class=trans>􌤽
       <td>
@@ -965,7 +997,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-r-kk-r
       <td class=hand><img src="pic/hand2/flyghand-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c20.svg">
+      <td><img class=shaded src="pic/digibet/c20.svg">
       <td>flyghand (B)
       <td class=trans>􌥑
       <td><img src="pic/digibet/c20.svg">
@@ -977,7 +1009,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>K-r-KK-r
       <td class=hand><img src="pic/hand2/flyghand-c.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c21.svg">
+      <td><img class=shaded src="pic/digibet/c21.svg">
       <td>flyghand (C)
       <td class=trans>􌥑
       <td><img src="pic/digibet/c21.svg">
@@ -1037,13 +1069,12 @@ Font for ASL: Symbol Comparison Table</a>.
       <td><img src="pic/digibet/c24.svg">
       <td><img src="pic/digibet/c24.svg">
       <td><img src="pic/digibet/c24.svg">
-      <td><img src="pic/arnold/50s.png">
-        <nobr>(<img src="pic/arnold/52s.png">)<nobr>
+      <td><img src="pic/arnold/50s.png"> (<img src="pic/arnold/52s.png">)
       <td class=trans>H/U
     <tr>
       <td>r-rr-kk
       <td class=hand><img src="pic/hand2/n-hand-d.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c25.svg">
+      <td><img class=shaded src="pic/digibet/c25.svg">
       <td>pistolhand
       <td class=trans>?
       <td>
@@ -1056,7 +1087,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>v-rr-kk
       <td class=hand><img src="pic/hand2/liten-tumvinkelhand.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c26.svg">
+      <td><img class=shaded src="pic/digibet/c26.svg">
       <td>N-måtthand
       <td class=trans><img src="pic/glyph/h-lilla-matthanden.svg">
       <td>
@@ -1068,7 +1099,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>v-r-r-kk
       <td class=hand><img src="pic/hand2/tupphand-b.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c27.svg">
+      <td><img class=shaded src="pic/digibet/c27.svg">
       <td>vinklad tupphand
       <td class=trans><img src="pic/glyph/h-vinklade-tupphanden.svg">
       <td>
@@ -1140,7 +1171,7 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-r-v-kk
       <td class=hand><img src="pic/hand2/tupphand-c.png">
-      <td class=shaded style="font-size:250%"><img src="pic/digibet/c32.svg">
+      <td><img class=shaded src="pic/digibet/c32.svg">
       <td>fysikerhand / jasåhand
       <td class=trans>?
       <td>
@@ -1308,24 +1339,25 @@ Font for ASL: Symbol Comparison Table</a>.
       <td class=grey>
       <td class=grey>
     <tr>
-      <th rowspan=2><a href="#tfn1">Handforms­beskrivning<sup>1</sup></a>
-      <th rowspan=2>Handform
-      <th><small>2018-05-21
-          <br>Teckenskrift</small>
-      <th>Handformens namn
-      <th>Transkriptions­symbol
-      <th><small>2018
-        <br>(<a href="https://www.facebook.com/groups/ASLwrite">Facebook group</a>)</small>
-      <th><small>2017-11-09
-          <br>(<a href="http://www.aslwrite.com/web/wp-content/uploads/2017/11/ASLwriteSummary3.pdf">ASLwrite&shy;Summary3</a>)</small>
-      <th><small>2014-06-28
-          <br>(<a href="http://www.aslwrite.com/free/extendedASLdigibetR.pdf">extended&shy;ASL&shy;digibet&shy;R</a>)</small>
-      <th><small>2013-02-23
-          <br>(<a href="http://www.aslwrite.com/free/22HWASLebookfree.pdf">22HWASL&shy;ebook&shy;free</a>)</small>
-      <th><small>2007
-          <br>(<a href="pdf/arnold-2007-a_proposal_for_a_written_system_of_asl.pdf">Arnold</a>)</small>
-      <th>Finger&shy;spelling
+      <th><span class=vert>Handforms-<br>beskrivning <a href="#tfn1"><sup>[1]</sup></a>
+      <th><span class=vert>Handform</span>
+      <th><span class=vert>2018-05-21
+          <br><small>Teckenskrift</small></span>
+      <th><span class=vert>Handforms-<br>namn</span>
+      <th><span class=vert>Transkription</span>
+      <th><span class=vert>2018
+        <br><small>(<a href="https://www.facebook.com/groups/ASLwrite">Facebook group</a>)</small></span>
+      <th><span class=vert>2017-11-09
+          <br><small>(<a href="http://www.aslwrite.com/web/wp-content/uploads/2017/11/ASLwriteSummary3.pdf">ASLwrite&shy;Summary3</a>)</small></span>
+      <th><span class=vert>2014-06-28
+          <br><small>(<a href="http://www.aslwrite.com/free/extendedASLdigibetR.pdf">extended&shy;ASL&shy;digibet&shy;R</a>)</small></span>
+      <th><span class=vert>2013-02-23
+          <br><small>(<a href="http://www.aslwrite.com/free/22HWASLebookfree.pdf">22HWASL&shy;ebook&shy;free</a>)</small></span>
+      <th><span class=vert>2007
+          <br><small>(<a href="pdf/arnold-2007-a_proposal_for_a_written_system_of_asl.pdf">Arnold</a>)</small></span>
+      <th><span class=vert>Fingerspelling</span>
     <tr>
+      <th colspan=2>
       <th colspan=3>Svenskt teckenspråk
       <th colspan=6>Amerikanskt teckenspåk
   </table>
@@ -1333,6 +1365,6 @@ Font for ASL: Symbol Comparison Table</a>.
 
 <footer>
   <hr>
-  <p>Copyright 2018–2022 <a href="http://zrajm.org">zrajm</a> (Uppsala, Sverige)
+  <p>Copyright 2018–2024 <a href="http://zrajm.org">zrajm</a> (Uppsala, Sverige)
 </footer>
 <!--[eof]-->
