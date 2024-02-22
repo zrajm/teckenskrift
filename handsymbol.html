@@ -43,7 +43,8 @@
   table.border-example th {
     padding-top: .125em;
   }
-  table.border-example img:hover {
+  table.border-example img[src$=".png"]:hover,
+  table.border-example img[src^="pic/digibet/"]:hover {
     transform: scale(2);
     border: solid #fff;
     border-radius: 2px;
