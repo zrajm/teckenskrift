@@ -70,9 +70,9 @@
   table.border-example td:nth-child(n+5) {
     white-space: nowrap;
   }
-  /* No border between grey cells. */
-  table.border-example td.grey:not(:last-child) { border-right: #0000; }
-  table.border-example td.grey + td.grey { border-left: #0000; }
+  /* No border between empty grey cells. */
+  table.border-example td.grey:empty:not(:last-child) { border-right: #0000; }
+  table.border-example td.grey:empty + td.grey:empty { border-left: #0000; }
   /* Transcription character images. */
   table.border-example td:nth-child(5) img {
     display: inline;
@@ -404,13 +404,13 @@ Font for ASL: Symbol Comparison Table</a>.
         och <img style="height:.75em;vertical-align:baseline;"
         src="pic/digibet/t-hand-2.svg" title="T-hand (B)">).</small>
       <td class="trans blue">􌤣
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>v-v-v-v-v
       <td class=hand><img src="pic/hand2/vinklad-sprethand.png">
@@ -466,9 +466,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>v-b-r-r-r
       <td class=hand><img src="pic/hand2/stor-matthand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/a14.svg">
       <td>
       <td>
@@ -512,13 +512,13 @@ Font for ASL: Symbol Comparison Table</a>.
         (se <img style="height:1em;vertical-align:baseline;"
         src="pic/digibet/f-hand.svg" title="F-hand">).</small>
       <td class=trans>􌤲
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>v-v-r-r-r
       <td class=hand><img src="pic/x/stora-nyphanden-4.png" style="height:90px">
@@ -529,19 +529,19 @@ Font for ASL: Symbol Comparison Table</a>.
         och <img style="height:1em;vertical-align:baseline;"
         src="pic/digibet/a15.svg" title="stor nyphand (A)">.</small>
       <td class=trans>􌤲
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>+V-V-r-r-r
       <td class=hand><img src="pic/hand2/vinklat-korsat-pekfinger.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/a17.svg">
       <td>
       <td>
@@ -552,9 +552,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>+V-B-r-r-r
       <td class=hand><img src="pic/hand2/bojt-korsat-pekfinger.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/a18.svg">
       <td>
       <td>
@@ -598,19 +598,19 @@ Font for ASL: Symbol Comparison Table</a>.
         och <img style="height:.75em;vertical-align:baseline;"
         src="pic/digibet/c02.svg">.</small>
       <td class="trans blue">􌥟
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>+V-r-B-r-r
       <td class=hand><img src="pic/hand2/korsat-langfinger.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/a21.svg">
       <td>
       <td>
@@ -634,9 +634,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>K-r-r-F-r
       <td class=hand><img src="pic/hand2/stort-ringfinger.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/a23.svg">
       <td>
       <td>
@@ -720,13 +720,13 @@ Font for ASL: Symbol Comparison Table</a>.
       <td class=blue><img src="pic/digibet/b05-x.svg">
       <td class=blue>tumhand (B)
       <td class="trans blue">􌤧
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>RKkkk
       <td class=hand><img src="pic/hand2/knuten-hand-b.png">
@@ -756,9 +756,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>RK|Kkk
       <td class=hand><img src="pic/hand2/asl-t-hand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/b08.svg">
       <td>
       <td><img src="pic/digibet/b08.svg"><a href="#tfn2">[2]</a>
@@ -769,9 +769,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>kffff
       <td class=hand><img src="pic/hand2/asl-e-hand-b.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/b10-b.svg"><a href="#tfn7">[7]</a>
       <td><img src="pic/digibet/b10-b.svg">
       <td>
@@ -782,9 +782,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>KFFFF
       <td class=hand><img src="pic/hand2/asl-e-hand-a.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/b09-b.svg"><a href="#tfn7">[7]</a>
       <td><img src="pic/digibet/b09-b.svg">
       <td><img src="pic/digibet/b09-b.svg"><a href="#tfn2">[2]</a>
@@ -795,9 +795,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>RkkK|K
       <td class=hand><img src="pic/hand2/asl-m-hand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/b11.svg">
       <td>
       <td><img src="pic/digibet/b11.svg"><a href="#tfn2">[2]</a>
@@ -808,9 +808,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>RkK|Kk
       <td class=hand><img src="pic/hand2/asl-n-hand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/b12.svg">
       <td>
       <td><img src="pic/digibet/b12.svg"><a href="#tfn2">[2]</a>
@@ -881,19 +881,19 @@ Font for ASL: Symbol Comparison Table</a>.
         och <img style="height:1em;vertical-align:baseline;"
         src="pic/digibet/c04-c.svg" title="måtthand (A)">.</small>
       <td class="trans blue">􌥋
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>R-B-kkk
       <td class=hand><img src="pic/hand2/bojd-nyphand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/c05.svg">
       <td>
       <td>
@@ -917,9 +917,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-b-kkk
       <td class=hand><img src="pic/hand2/matthand-c.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/c07.svg">
       <td>
       <td>
@@ -1008,9 +1008,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-bb-kk
       <td class=hand><img src="pic/hand2/bojd-n-hand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/c14.svg">
       <td>
       <td>
@@ -1048,9 +1048,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-r+r-kk
       <td class=hand><img src="pic/hand2/lx-hand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/c17.svg">
       <td>
       <td>
@@ -1061,9 +1061,9 @@ Font for ASL: Symbol Comparison Table</a>.
     <tr>
       <td>r-r+r-k-r
       <td class=hand><img src="pic/hand2/x-flyghand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/c18.svg">
       <td>
       <td>
@@ -1147,13 +1147,13 @@ Font for ASL: Symbol Comparison Table</a>.
         <br><small>Modifierad <img style="height:.75em;vertical-align:baseline;"
         src="pic/digibet/c24.svg">.</small>
       <td class="trans blue">􌤿
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>K-rr-KK
       <td class=hand><img src="pic/hand2/n-hand-a.png">
@@ -1226,19 +1226,19 @@ Font for ASL: Symbol Comparison Table</a>.
       <td><img src="pic/digibet/b04.svg">
       <td>böjd N-hand (NO-hand)
       <td class=trans><img src="pic/glyph/h-bojda-n-handen.svg">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>V-r-VVV
       <td class=hand><img src="pic/hand2/asl-p-hand.png">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
       <td><img src="pic/digibet/c29.svg">
       <td>
       <td>
@@ -1295,13 +1295,13 @@ Font for ASL: Symbol Comparison Table</a>.
         src="pic/digibet/b01-b.svg"> där tumlinjen<br>fortsätter genom
         handen.</small>
       <td class="trans blue">􌥇
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>RFrrr
       <td class=hand><img src="pic/x/stora-nyphanden-5.png" style="height:90px">
@@ -1312,13 +1312,13 @@ Font for ASL: Symbol Comparison Table</a>.
         (se <img style="height:1em;vertical-align:baseline;"
         src="pic/digibet/a15-x.svg" title="stor nyphand (C)">).</small>
       <td class="trans blue">􌦬
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>KK-r-KK
       <td class=hand><img src="pic/x/langfingret-1.png" style="height:100px">
@@ -1327,13 +1327,13 @@ Font for ASL: Symbol Comparison Table</a>.
         <br><small>Modifierad <img style="height:1.25em;vertical-align:baseline;"
         src="pic/digibet/lillfinger.svg">.</small>
       <td class="trans blue">􌤬
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>RVkkk
       <td class=hand><img src="pic/x/t-handen-1.png" style="height:100px">
@@ -1346,13 +1346,13 @@ Font for ASL: Symbol Comparison Table</a>.
         och <img style="height:1em;vertical-align:baseline;"
         src="pic/digibet/a09-x.svg" title="vinkelhand (B)">).</small>
       <td class="trans blue">􌥊
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>RVkkk
       <td class=hand><img src="pic/x/t-handen-2.png" style="height:100px">
@@ -1365,13 +1365,13 @@ Font for ASL: Symbol Comparison Table</a>.
         och <img style="height:1em;vertical-align:baseline;"
         src="pic/digibet/a09-x.svg" title="vinkelhand (B)">).</small>
       <td class="trans blue">􌥊
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>v-kkkk
       <td class=hand><img src="pic/x/q-handen-1.png" style="height:100px">
@@ -1382,13 +1382,13 @@ Font for ASL: Symbol Comparison Table</a>.
           <!-- ‘<a href="https://www.handspeak.com/write/index.php?id=1">10-thumb</a>’ -->
         + egen tumlinje.</small>
       <td class="trans blue">􌦭
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>v-rrrr
       <td class=hand><img src="pic/x/flata-tumhanden-1.png" style="height:100px">
@@ -1397,13 +1397,13 @@ Font for ASL: Symbol Comparison Table</a>.
         <br><small><img style="height:1em;vertical-align:baseline;" src="pic/digibet/a11.svg">
           + egen tumlinje.</small>
       <td class="trans blue">􌥂
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>KvKKK
       <td class=hand><img src="pic/x/vinklade-pekfingret.png" style="height:85px">
@@ -1414,13 +1414,13 @@ Font for ASL: Symbol Comparison Table</a>.
         och
         ‘<a href="https://www.handspeak.com/write/index.php?id=1">4-bend</a>’.</small>
       <td class="trans blue"><img src="pic/glyph/h-vinklade-pekfingret.svg">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>KvvKK
       <td class=hand><img src="pic/x/vinklade-n-handen-1.png" style="height:100px">
@@ -1432,13 +1432,13 @@ Font for ASL: Symbol Comparison Table</a>.
         och
         ‘<a href="https://www.handspeak.com/write/index.php?id=1">4-bend</a>’.</small>
       <td class="trans blue"><img src="pic/glyph/h-vinklade-n-handen.svg">
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <td>r-vvkk
       <td class=hand><img src="pic/x/vinklade-n-handen-2.png" style="height:100px">
@@ -1446,13 +1446,13 @@ Font for ASL: Symbol Comparison Table</a>.
       <td class=blue>vinklad N-hand
         <br><small>‘<a href="https://www.handspeak.com/write/index.php?id=1">3-bend</a>’.</small>
       <td class="trans blue">?
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
-      <td class=grey>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
+      <td class=grey></td>
     <tr>
       <th><span class=vert>Handforms-<br>beskrivning <sup><a href="#tfn1">[1]</a></sup>
       <th><span class=vert>Handform</span>
