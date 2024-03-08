@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="svg16683"
+   height="38.278381"
+   width="38.263283"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata16691">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs16689" />
+  <path
+     id="path27723"
+     style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     d="m 8.27223,1 c 6.977,7.05113 13.70533,15.298611 15.60652,26.57502 0.27704,1.64315 0.21643,2.956511 0.10755,3.88271 -0.23848,2.02855 -1.38565,4.18889 -3.00704,5.17549 -1.62139,0.98661 -3.65314,0.70189 -5.16064,0 -1.5075,-0.70188 -3.08032,-3.134279 -3.06299,-5.14445 -0.13866,-2.419989 0.89353,-5.70692 1.9862,-8.166499 C 17.26416,17.64456 23.43228,6.02293 28.01409,1" />
+  <path
+     id="path6866"
+     d="m 1,29.931521 10.73633,-0.0278"
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 37.263281,20.987787 c -1.171838,5.805709 -4.282959,9.162786 -9.657454,12.563582"
+     id="path20354-6" />
+</svg>
