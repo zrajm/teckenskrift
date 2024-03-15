@@ -68,6 +68,8 @@ mark {
 
 img { max-height: 175px; }
 
+sup, sub { line-height: 0; }
+
 body {
   font-size: 22px;
   /* line-height need to be >1.25 not to leave remains of FreeSans-SWL relation
