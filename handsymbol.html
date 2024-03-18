@@ -150,6 +150,13 @@
     top: .075em;
   }
   figcaption { text-align: center; }
+  img.hand {
+    position: bottom;
+    height: 1.5em;
+    max-height: unset;
+    max-width: unset;
+    margin: -.4em 0;
+  }
 </style>
 
 <h1>Teckenskrift: Handsymboler</h1>
@@ -220,7 +227,7 @@ Font for ASL: Symbol Comparison Table</a>.
 
   <p><table class="border-example digits">
     <tr>
-      <th><span class=vert>Handforms-<br>beskrivning <sup><a href="#tfn1">[1]</a></sup>
+      <th><span class=vert><a href="#handshapes">Handforms-<br>beskrivning</a>
       <th><span class=vert>Handform</span>
       <th><span class=vert>Teckenskrift</span>
       <th><span class=vert>Svenskt<br>handforms-<br>namn</span>
@@ -789,7 +796,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <td><img src="pic/arnold/13s.png">
       <td class=trans>
     <tr>
-      <td>KK|Kkk
+      <td>K<u>K</u>|Kkk
       <td class=hand><img src="pic/hand2/asl-t-hand.png">
       <td class=grey><img src="pic/digibet/b08.svg">
       <td class=grey>amerikansk T-hand
@@ -831,7 +838,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <td><img src="pic/arnold/07s.png">
       <td class=trans>E
     <tr>
-      <td>KkkK|K
+      <td>K<u>kkK</u>|K
       <td class=hand><img src="pic/hand2/asl-m-hand.png">
       <td class=grey><img src="pic/digibet/b11.svg">
       <td class=grey>amerikansk M-hand
@@ -845,7 +852,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <td><img src="pic/arnold/06s.png">
       <td class=trans>M
     <tr>
-      <td>KkK|Kk
+      <td>K<u>kK</u>|Kk
       <td class=hand><img src="pic/hand2/asl-n-hand.png">
       <td class=grey><img src="pic/digibet/b12.svg">
       <td class=grey>amerikansk N-hand
@@ -1358,7 +1365,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <td><img src="pic/arnold/58s.png"><a href="#tfn22">[22]</a>
       <td class=trans>
     <tr>
-      <td>KKKKK
+      <td>K<u>KKKK</u>
       <td class=hand><img src="pic/x/e-handen-1.png" style="height:100px">
       <td class=blue><img src="pic/digibet/e-hand.svg">
       <td class=blue>E-hand
@@ -1591,7 +1598,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <td>
       <td class=trans>
     <tr>
-      <th><span class=vert>Handforms-<br>beskrivning <sup><a href="#tfn1">[1]</a></sup>
+      <th><span class=vert><a href="#handshapes">Handforms-<br>beskrivning</a>
       <th><span class=vert>Handform</span>
       <th><span class=vert>Teckenskrift</span>
       <th><span class=vert>Svenskt<br>handforms-<br>namn</span>
@@ -1858,51 +1865,83 @@ Font for ASL: Symbol Comparison Table</a>.
   </figure>
 </section>
 
+<section id=handshapes>
+  <h1>Hand Shape Descriptions</h1>
+
+  <p>Each handshape is described by five letter sequence indicating, the
+    configuration of each finger in the order <i>thumb–index–long–ring–little
+    finger</i>. The following letters are used:
+
+  <ul>
+    <li><b>k</b> = knutet/fisted – The finger is maximally bent, in the same
+      way it would be if hand was turned into a fist. <nobr><img class=hand
+      src="pic/hand2/knuten-hand-a.png"> = <b>KKKKK</b></nobr>
+
+    <li><b>r</b> = rak/straight finger – Finger/thumb is completely straight
+      (with no bent joints) and is in the plane of the
+      palm. <nobr><img class=hand src="pic/hand2/flat-hand-b.png">
+      = <b>rrrrr</b></nobr> and <nobr><img class=hand
+      src="pic/hand2/flat-hand-a.png"> = <b>r-rrrr</b></nobr>
+
+    <li><b>v</b> = vinklat/angled – Finger/thumb is parallel to
+      the <i>normal</i> of the palm. Fingers are bent in the innermost
+      joint. <nobr><img class=hand src="pic/hand2/tumvinkelhand.png">
+      = <b>v-vvvv</b></nobr> and <nobr><img class=hand
+      src="pic/hand2/a-hand.png"> = <b>V-VVVV</b></nobr>
+
+    <li><b>b</b> = böjt/bent – Finger/thumb is parallel to the <i>normal</i>
+      of the palm, but also bent. Fingers are bent in the innermost
+      joint. <nobr><img class=hand src="pic/hand2/tumvinkelhand.png">
+      = <b>v-vvvv</b></nobr> and <nobr><img class=hand
+      src="pic/hand2/a-hand.png"> = <b>V-VVVV</b></nobr>
+
+    <li><b>b</b> = böjt/bent – Finger/thumb is angled in roughly the same
+      direction al for <b>v</b>, but all joints are slightly bent giving
+      finger/thumb a rounded appearance. <nobr><img class=hand
+      src="pic/hand2/s-hand-a2.png"> = <b>b-bbbb</b></nobr>
+      and <nobr><img class=hand src="pic/hand2/o-hand.png">
+      = <b>B-BBBB</b></nobr>
+
+    <li><b>f</b> = fyrkant/square – Like <b>k</b>, but innermost joint is
+      straight and unbent (uncommon). <nobr><img class=hand
+      src="pic/hand2/asl-e-hand-b.png"> = <b>kffff</b></nobr>
+      and <nobr><img class=hand src="pic/hand2/asl-e-hand-a.png">
+      = <b>KFFFF</b></nobr>
+  </ul>
+
+  <p>If the thumb touches other fingers, then thumb + relevant finger cluster
+  is CAPITALIZED (finger cluster = some fingers which are in contact with each
+  other). If thumb is annotated as both separated from (’-’) AND touching the
+  index finger then contact is made at the tip only, if touching without
+  separation then there's contact along the full length of the thumb.
+
+  <p>The following symbols are used between thumb/fingers:
+
+  <ul>
+    <li><b>-</b> = spread/separated – These fingers do not
+      touch. <nobr><img class=hand src="pic/hand2/flat-hand-b.png">
+      = <b>rrrrr</b></nobr> and <nobr><img class=hand
+      src="pic/hand2/sprethand.png"> = <b>r-r-r-r-r</b></nobr>
+
+    <li><b>+</b> = Crossed. (Also used in front of the thumb to indicate that
+      it crosses another finger, rather than touch it at the
+      tip). <nobr><img class=hand src="pic/hand2/x-hand.png">
+      = <b>K-r+r-KK</b></nobr> and <nobr><img class=hand
+      src="pic/hand2/vinklat-korsat-pekfinger.png"> = <b>+V-V-r-r-r</b></nobr>
+
+    <li><b>|</b> = Separated by thumb. Used to indicate thumb is protruding
+      between other fingers. When used the thumb is always <b>k</b>, and the
+      fingers the thumb passes under are underlined. For a Swedish ’E’ all
+      fingers are underlined (since they wrap around the thumb), but
+      <b>|</b> is not used (since the tip of the thumb is not
+      protruding). <nobr><img class=hand src="pic/x/e-handen-1.png">
+      = <b>K<u>KKKK</u></b></nobr> and <nobr><img class=hand
+      src="pic/hand2/asl-t-hand.png"> = <b>K<u>K</u>|Kkk</b></nobr>
+  </ul>
+</section>
+
 <section class=hanging id=fotnoter>
   <h1>Fotnoter</h1>
-  <style>
-    section#fotnoter img.hand {
-      position: bottom;
-      height: 1.5em;
-      max-height: unset;
-      max-width: unset;
-      margin: -.4em 0;
-    }
-  </style>
-
-  <p id="tfn1">[1] Hand Description: Each hand consists of five finger
-    description in the order <i>thumb–index–long–ring–little finger</i>. The
-    following letters are used to indicate finger shape.
-
-    <ul>
-      <li><b>b</b> = böjt/bent – Finger/thumb angled in same way as <b>v</b>
-        but all joints are slightly bent giving finger/thumb a rounded
-        appearance.
-      <li><b>f</b> = fyrkant/square – Like <b>k</b>, but innermost joint is not
-        bent.
-      <li><b>k</b> = knutet/fisted – The finger is maximally bent, in the same
-        way it would be if hand was turned into a fist.
-      <li><b>r</b> = rak/straight finger – The finger is completely straight
-        (with no bent joints) and finger/thumb is parallel to the palm.
-      <li><b>v</b> = vinklat/angled – Finger is bent in the innermost joint,
-        but otherwise straight or thumb is angled up from palm.
-    </ul>
-
-    <p class=indented>If the thumb touches other fingers, then thumb + relevant
-    finger cluster is CAPITALIZED (finger cluster = some fingers which are in
-    contact with each other). If thumb is annotated as both separated from
-    (’-’) AND touching the index finger then contact is made at the tip only,
-    if touching without separation then there's contact along the full length
-    of the thumb.
-
-    <p class=indented>The following symbols are used between thumb/fingers:
-
-    <ul>
-      <li><b>-</b> = spread/separated – These fingers do not touch.
-      <li><b>+</b> = Crossed (can also come before the thumb to indicate that
-        thumb cross other finger, rather than touch at tip).
-      <li><b>|</b> = Separated by thumb.
-    </ul>
 
   <p id="tfn2">[2] Clark (<a href=#2017>2017</a>: 1 & 4
     och <a href="#2018b">2018</a>: 1) använder
