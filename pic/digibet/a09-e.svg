@@ -23,7 +23,7 @@
   <defs
      id="defs8" />
   <path
-     style="fill:none;stroke:#020202;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-     d="m 1,1 c 16.28798,0.34765 24.15677,0.69186 40.44475,0.0521 0.90732,0.0699 1.98959,0.36057 2.31765,1.3774095 0.68382,2.1195 1.14863,19.7695595 0.37997,21.2581295 C 31.915296,13.146573 29.886333,11.782318 20.590114,2.0252665"
+     style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 1,1 c 16.28798,0.34765 24.15677,0.69186 40.44475,0.0521 0.90732,0.0699 1.98959,0.36057 2.31765,1.3774095 0.68382,2.1195 1.14863,19.7695595 0.37997,21.2581295 C 35.678219,18.011047 25.903652,11.910986 19.494875,3.4522645"
      id="path4" />
 </svg>
