@@ -116,17 +116,33 @@ noscript.required {
 
 .big { font-size: 75px; }
 
-table[border="1"] td { border: none; }
-table[border="1"] {
-  border-collapse: collapse;
-  border: 1px solid black;
-  text-align: center;
-}
-
+table:not([border]) { border-width: 0; }
 table {
-  position: relative;
-  border-collapse: separate;
-  border-spacing: 3px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: currentColor;
+  border-style: solid;
+}
+thead, tbody, tfoot, tr, th, td { border: inherit; }
+
+/******************************************************************************/
+
+table.stickyhead {
+  caption-side: top;
+  & label { display: revert }
+  & thead { transition: box-shadow .2s ease-out }
+  &:has(:checked) {
+    & thead {
+      position: sticky; top: 0; z-index: 1;
+      background: currentColor;
+      box-shadow: 0 4px 8px 0 #0004;
+      & tr > * {
+        position: relative;
+        background-color: #fff;
+      }
+    }
+    & tfoot { display: none }
+  }
 }
 
 /******************************************************************************/

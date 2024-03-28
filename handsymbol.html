@@ -7,16 +7,6 @@
 <link rel="mask-icon" href="favicon.svg" color="#444"><!--Safari-->
 <style>
   section { margin-top: 1em; margin-bottom: 1em; }
-  table[border]:not([border="0"]) {
-    border-collapse: collapse;
-    border: 1px solid black;
-  }
-  table[border]:not([border="0"]) th,
-  table[border]:not([border="0"]) td {
-    text-align: center;
-    padding: .125em .25em;
-    border: 1px solid black;
-  }
   .FIXME { background: yellow; }
   .shaded { opacity: .4; }
   .blue { background: rgba(0, 0, 255, .2); }
@@ -24,9 +14,6 @@
   .trans img { height: 28px; }
   .grey { background: rgba(127, 127, 127, .5); }
   table.border-example {
-    caption-side: bottom;
-    border: 1px solid black;
-    border-collapse: collapse;
     line-height: 1.2;
   }
   table.border-example caption {
@@ -37,7 +24,6 @@
   table.border-example th,
   table.border-example td {
     text-align: center;
-    border: 1px solid black;
     padding: 0 2px;
     height: 50px;
   }
@@ -225,7 +211,11 @@ Font for ASL: Symbol Comparison Table</a>.
   digits)</i>, <i>slutna handformer (closed digits)</i> och <i>blandade
   handformer (mixed digits)</i>.
 
-  <p><table class="border-example digits">
+  <p><table border=1 class="border-example digits stickyhead">
+      <caption>
+        <label hidden><input type="checkbox"> Flytande tabellhuvud</label>
+      </caption>
+    <thead>
     <tr>
       <th><span class=vert><a href="#handshapes">Handforms-<br>beskrivning</a>
       <th><span class=vert>Handform</span>
@@ -240,6 +230,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <th><span class=vert>Tanada (<a href=#2012>2012</a>)</span>
       <th><span class=vert>Arnold (<a href=#2007>2007</a>)</span>
       <th><span class=vert>Fingerspelling</span>
+    <tbody>
     <tr>
       <td>r-r-r-r-r
       <td class=hand><img src="pic/hand2/sprethand.png">
@@ -1558,6 +1549,7 @@ Font for ASL: Symbol Comparison Table</a>.
       <td class=tanada><img width=40 src="pic/tanada/c23-c.png">
       <td></td>
       <td class=trans></td>
+    <tfoot>
     <tr>
       <th><span class=vert><a href="#handshapes">Handforms-<br>beskrivning</a>
       <th><span class=vert>Handform</span>
