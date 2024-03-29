@@ -137,7 +137,7 @@ table.stickyhead {
       background: currentColor;
       box-shadow: 0 4px 8px 0 #0004;
       & tr > * {
-        position: relative;
+        isolation: isolate;
         background-color: #fff;
       }
     }
