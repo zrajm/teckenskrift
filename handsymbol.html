@@ -28,15 +28,17 @@
   table.border-example th {
     padding-top: .125em;
   }
-  table.border-example img[src$=".png"]:hover,
-  table.border-example img[src^="pic/digibet/"]:hover {
+  table.border-example td:not(:nth-child(1),:nth-child(4),:empty):hover {
+    position: relative; z-index: 1;
     transform: scale(2);
-    border: solid #fff;
-    border-radius: 2px;
-    border-width: 3px 6px;
-    box-shadow: 0 2px 4px #0008;
-    background: #fff;
-    opacity: 1;
+    &:before {
+      content: '';
+      position: absolute; inset: 0;
+      background: #fff;
+      z-index: -1;
+      border-radius: 2px;
+      box-shadow: 0 2px 4px #0008;
+    }
   }
   table.border-example img {
     max-height: 50px;
