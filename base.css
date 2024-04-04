@@ -197,7 +197,9 @@ button, select {
 select option { background-color: #fff; }
 
 :target {
-  background: rgba(0, 0, 255, .2);
+  border-radius: 1px;
+  box-shadow: 0 0 0 4px    #00f4,
+        inset 0 0 0 1000px #00f4;
 }
 
 video {
