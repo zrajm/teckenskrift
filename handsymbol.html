@@ -189,6 +189,17 @@
       }
     }
   }
+  /* Black -> blue in link images (see https://codepen.io/sosuke/pen/Pjoqqp). */
+  a img.link {
+    filter: drop-shadow(.5px 0 0 #000) invert(11%) sepia(73%) saturate(6477%)
+            hue-rotate(250deg) brightness(76%) contrast(116%);
+  }
+  a:hover {
+    text-decoration: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 1px    #00f4,
+          inset 0 0   0 1000px #00f4;
+  }
 </style>
 
 <h1>Teckenskrift: Handsymboler</h1>
