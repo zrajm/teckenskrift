@@ -47,14 +47,118 @@
 ** TODO Rename 'mötande linjer'?
    Should these be called 'ihopgående' or 'sammangående', to parallel
    'isärgående linjer'?
-* anteckningar
-* aslwrite
-* handsymboler
+* [0/8] Translate all notes into English
+  The main page should remain in Swedish, but all notes should be in English
+  (for the benefit of an international audience). Link files from old to new
+  names. ('index.html' should remain in Swedish.
+** TODO anteckningar.html
+** TODO aslwrite.html
+** TODO handalfabet.html
+** TODO handsymbol.html
+** TODO historik.html
+** TODO munbild.html
+** TODO negation.html
+** TODO skriftsystem.html
+* [0/1] Anteckningar
+** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
+* [0/0] aslwrite
+* [0/15] Handsymbol
+** TODO Center main table
 ** TODO Ge klohand ett extra fingerstreck?
    Klohand har bara ett extra fingerstreck, medan böjd 4-hand har två (för att
    distingera den från böjd W-hand). Kolla hur det ser ut i ASLwrite. Vad är
    rimligt i STS-skrift?
-* munbild: Mouth segment notes
+** TODO Insert this TODO list into main TODO
+** [2/7] Use images from actual sources in table
+*** DONE Arnold (2007)
+    CLOSED: [2020-09-20 Sun 13:25]
+*** DONE Tanada (2012)
+    CLOSED: [2024-03-15 Fri 15:49]
+*** TODO Clark (2013: 89–93)
+*** TODO Clark (2014)
+*** TODO Clark (2017, 2018)
+*** TODO ASLwrite (2017)
+*** TODO Clark (2023)
+** TODO Replace '?' in transcription column with character used in lexicon
+** TODO F-hand's symbol should be more consistent with stor nyphand
+   F-hand /RFrrr/ and stor nyphand /B-B-rrr/
+** TODO Add footnote on difference in flat and rounded O-hand
+   There's not so much difference between flat and bent O-hand in ASL, while in
+   STS it's an important distinction -- this affects the symbols of all the
+   'large' handshapes (U-hand, stor nyphand /B-B-r-r-r/ och /V-V-r-r-r/).
+** TODO Give reference section consistent formatting
+** TODO Expand footnoote [12] with other handshapes
+   (samlad dubbelkrok, 'r-bb-kk' -> a08.svg)
+** TODO Fix table sticky header switch on mobile
+** TODO Rewrite intro, remove dead links & references to Tanada
+   Tanada no longer needs mention in the intro, since its now listed in the
+   table and in the references section.
+** TODO Ask questions in ASLwrite facebook group
+   + Why drop the break in the pinky line in /r-kkk-r/ (flyghand A)?
+   + Why go change to external line for index and long finger handshape? Instead
+     of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
+     /v-rr-kk/ (N-måtthand, liten tumvinkelhand) and /V-VV-kk/ (liten O-hand).
+** TODO Add si5s (Arnold v2) to table
+** TODO Add Tanada 3D-hand digit to table
+   Is this digit only included in Tanada version 1? If so add version 1 to the
+   reference (and link to it), and also add footnote about this.
+** TODO Create & use consistent handshape terminology (for Swedish and English)
+   This should use terms from Svenskt teckenspråkslexikon as far as possible,
+   but also deviate from that when needed. (See
+   https://teckensprakslexikon.su.se/verktyg/utskrift and
+   https://teckensprakslexikon.su.se/lage.)
+
+   The terms should NOT be based on fingerspelling (i.e. not use the
+   fingerspelling alphabet for inspiration of names), and should have names
+   that are have direct translations between Swedish and English.
+
+   Should rely on medical terminology for thumb positions, maybe?
+
+   These concepts are good (but words might have to change):
+
+   + 'spretad'/'samlad'
+   + 'stor' (all secondary fingers straight)
+   + 'liten' (only index and long finger doing a thing 'liten o-hand')
+   + 'baby' (only index finger doing a thing, 'baby o-hand')
+
+   Note that 'stor' and 'liten' (which are opposite adjectives in Swedish in
+   general) not are opposites in this context. Maybe rename these? (e.g. 'stor
+   liten o-hand' makes perfect sense).
+
+   Handshapes with one finger as the primary finger should be named after the
+   finger ('thumb', 'index finger', 'pinky' and so on).
+
+   (Maybe see http://zrajm.github.devel/teckentranskription/NEWER/handform.html?)
+
+*** TODO 'korsat långfinger' /+V-r-B-r-r/?
+*** TODO 'stor nyphand (D)' -> 'stor rak måtthand' /v-v-r-r-r/
+*** TODO 'N-måtthanden' -> 'liten rak måtthand' /v-rr-kk/
+*** TODO 'tumhand' -> 'tumme' /r-kkkk/ and /(r)-kkkk/
+    Makes 'böjd tumme' /(r)-kkkk/ possible, but then, what does 'flat tumhand'
+    become?
+*** TODO 'F-hand' -> 'stor hållhand' /RFrrr/
+*** TODO -> X-flyghand (?) /r-r+r-k-r/
+*** TODO Add '3D-hand' to 'fysikerhand' / 'jasåhand'?
+*** TODO More?
+** TODO Change images for American M-hand and N-hand to the common type
+   Where index, long (and ring) fingers are not straight but turned into a fist
+   (with thumb protruding between index and long fingers, or long and ring
+   finger).
+** [0/4] Add ASLwrite group facebook threads for source references
+*** TODO The thread with the Clark (2023) PDF document
+    https://www.facebook.com/groups/ASLwrite/posts/2566811746813112
+    For correction about hållhand, the ASL E-hand images for the normal and
+    screaming E that was swapped in the table for the right hand etc. Missing
+    slash for X-hand.
+*** TODO Discussion of newer simplified 'hållhand'
+    (Need to reactivate my old facebook account to get a capture of the
+    facebook discussion of this.)
+*** TODO Discussion of long finger digit
+    https://www.facebook.com/groups/ASLwrite/posts/1524869774340653/?comment_id=1525200527640911
+    For finger digit footnote (discussion between Gareth Poole & Andrean
+    Clark). I need to temporarily reactivate my old facebook account to get a
+    capture of the facebook discussion of this.
+* [0/10] munbild: Mouth segment notes
 ** TODO Look at mouthings in described in SSLC
    The Swedish Sign Language Corpus have at least some annotations of reduced
    mouthings borrowed from Swedish. -- I happened to stumble upon the
@@ -83,9 +187,65 @@
    Useful data can be found in:
    * ”A Preliminary Analysis of Visual Mouth Segments in Swedish Sign
      Language” has a bunch of useful examples of reductions.
-* negation
-* skriftsystem
+* [0/0] negation
+* [0/0] skriftsystem
+* [0/0] historik
 * Finished
+** DONE Handsymbol: Check that all occurrences of each symbol-in-text have same classes
+   CLOSED: [2024-04-08 Mon 17:09]
+   'title' attribute and links to the same place (except where intentionally
+   linking to different places)
+   + pic/digibet/a09-c.svg: <a href=#r-vvvv title="vinkelhand"><img src="pic/digibet/a09-c.svg" class="link h7 up2"></a>
+   + pic/digibet/a09-d.svg: <a href=#kvvvv title="vinkelhand"><img src="pic/digibet/a09-d.svg" class="link h7 up2"></a>
+   + pic/digibet/a09-e.svg: <a href=#RVvvv title="vinkelhand"><img src="pic/digibet/a09-e.svg" class="link h7 up2"></a>
+   + pic/digibet/a13.svg: <a href=#rrrrr title="flat hand"><img src="pic/digibet/a13.svg" class="link h11 up2"></a>
+   + pic/digibet/a15-x.svg: <a href=#B-B-rrr title="stor nyphand"><img src="pic/digibet/a15-x.svg" class="link h13 up2"></a>
+   + pic/digibet/a15.svg: <a href=#B-B-r-r-r title="stor nyphand"><img src="pic/digibet/a15.svg" class="link h13 up2"></a>
+   + pic/digibet/a16.svg: <a href=#V-V-r-r-r title="stor nyphand"><img src="pic/digibet/a16.svg" class="link h13 up2"></a>
+   + pic/digibet/a20.svg: <a href=#B-r-B-r-r title="runt långfinger"><img src="pic/digibet/a20.svg" class="link h14 up2"></a>
+   + pic/digibet/b01-b.svg: <a href=#KKKKK title="knuten hand"><img src="pic/digibet/b01-b.svg" class="link h8 up2"></a>
+   + pic/digibet/b03.svg: <a href=#V-VV-kk title="A-hand"><img src="pic/digibet/b03.svg" class="link h7 up2"></a>
+   + pic/digibet/b04-c.svg: <a href=#B-BBBB title="O-hand"><img src="pic/digibet/b04-c.svg" class="link h8 up2"></a>
+   + pic/digibet/b05.svg: <a href=#r-kkkk title="tumhand"><img src="pic/digibet/b05.svg" class="link h6 up3"></a>
+   + pic/digibet/b07-b.svg: <a href=#RF-kkk title="hållhand"><img src="pic/digibet/b07-b.svg" class="link h10 up2"></a>
+   + pic/digibet/c01.svg: <a href=#v-vvvv title="tumvinkelhand"><img src="pic/digibet/c01.svg" class="link h7 up2"></a>
+   + pic/digibet/c02.svg: <a href=#V-VVVV title="A-hand"><img src="pic/digibet/c02.svg" class="link h7 up2"></a>
+   + pic/digibet/c04-c.svg: <a href=#b-b-kkk title="måtthand"><img src="pic/digibet/c04-c.svg" class="link h10 up1"></a>
+   + pic/digibet/c18.svg: <a href=#r-r+r-k-r title="X-flyghand"><img src="pic/digibet/c18.svg" class="link h13 up2"></a>
+   + pic/digibet/c19-c.svg: <a href=#r-kkk-r title="flyghand"><img src="pic/digibet/c19-c.svg" class="link h8 up2"></a>
+   + pic/digibet/c24.svg: <a href=#K-rr-KK title="N-hand"><img src="pic/digibet/c24.svg" class="link h7 up2"></a>
+   + pic/digibet/f-hand.svg: <a href=#RFrrr title="stor hållhand"><img src="pic/digibet/f-hand.svg" class="link h13 up2"></a>
+   + pic/digibet/lillfinger.svg: <a href=#KKKK-r title="lillfinger"><img src="pic/digibet/lillfinger.svg" class="link h13 up1"></a>
+   + pic/tanada/b05-x.png: <a href=#(r)-kkkk title="böjd tumme"><img src="pic/tanada/b05-x.png" class="link h7 up3"></a>
+   + pic/tanada/c23-c.png: <a href=#KKKK-b title="böjt lillfinger"><img src="pic/tanada/c23-c.png" class="link h8 up3"></a>
+*** DONE Move 'title' from <img> to <a> tag
+    CLOSED: [2024-04-08 Mon 15:47]
+*** DONE Move 'class' to end of <img> tag
+    CLOSED: [2024-04-08 Mon 15:52]
+** DONE Handsymbol: No table cell with content should have gray background
+   CLOSED: [2024-03-29 Fri 13:10]
+** DONE Handsymbol: Remove shading of Swedish allophones in table
+   CLOSED: [2024-03-29 Fri 13:23]
+** DONE Handsymbol: Improve blue marking
+   CLOSED: [2024-03-29 Fri 14:08]
+** DONE Handsymbol: Sticky header on/off button should also be sticky
+   CLOSED: [2024-04-02 Tue 12:49]
+** DONE Handsymbol: SVG speech bubble for facebook reproductions
+   CLOSED: [2024-04-02 Tue 16:58]
+** DONE Handsymbol: Merge the two måtthand (B) /r-b-kkk/
+   CLOSED: [2024-04-03 Wed 21:32]
+** DONE Handsymbol: New stuff from facebook thread?
+   CLOSED: [2024-04-03 Wed 22:19]
+** DONE Handsymbol: Enlarging of table on hover should apply to whole table cell
+   CLOSED: [2024-04-03 Wed 23:34]
+** DONE Handsymbol: All own handshapes should have blue background
+   CLOSED: [2024-04-03 Wed 23:44]
+** DONE Handsymbol: Each table row should have a linkable 'id' attribute
+   CLOSED: [2024-04-04 Thu 01:11]
+** DONE Handsymbol: Added missing blue markings
+   CLOSED: [2024-04-08 Mon 17:36]
+** DONE Handsymbol: Align digits in description column with text baseline
+   CLOSED: [2024-04-08 Mon 18:23]
 ** DONE Updated jQuery version and added source map
    CLOSED: [2023-09-12 Tue 16:01]
    The source map requires both jquery-3.7.1.slim.min.map and the unminified
