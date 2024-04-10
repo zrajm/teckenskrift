@@ -62,8 +62,7 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [0/14] Handsymbol
-** TODO Center main table
+* [0/13] Handsymbol
 ** TODO Ge klohand ett extra fingerstreck?
    Klohand har bara ett extra fingerstreck, medan böjd 4-hand har två (för att
    distingera den från böjd W-hand). Kolla hur det ser ut i ASLwrite. Vad är
@@ -190,6 +189,8 @@
 * [0/0] skriftsystem
 * [0/0] historik
 * Finished
+** DONE Handsymbol: Center main table
+   CLOSED: [2024-04-10 Wed 07:03]
 ** DONE Handsymbol: Check that all occurrences of each symbol-in-text have same classes
    CLOSED: [2024-04-08 Mon 17:09]
    'title' attribute and links to the same place (except where intentionally
