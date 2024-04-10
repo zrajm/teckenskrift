@@ -11,24 +11,24 @@
   .blue { background: #00f4; }
   .trans { font-size: 200%; }
   .trans img { height: 28px; }
-  table.border-example {
+  table.digits {
     line-height: 1.2;
   }
-  table.border-example caption {
+  table.digits caption {
     text-align: left;
     padding: 0.5em 1em;
     font-weight: normal;
   }
-  table.border-example th,
-  table.border-example td {
+  table.digits th,
+  table.digits td {
     text-align: center;
     padding: 0 2px;
     height: 50px;
   }
-  table.border-example th {
+  table.digits th {
     padding-top: .125em;
   }
-  table.border-example td:not(:nth-child(1),:nth-child(4),:empty):hover {
+  table.digits td:not(:nth-child(1),:nth-child(4),:empty):hover {
     position: relative; z-index: 1;
     transform: scale(2);
     &:before {
@@ -40,21 +40,21 @@
       box-shadow: 0 2px 4px #0008;
     }
   }
-  table.border-example img {
+  table.digits img {
     max-height: 50px;
     max-width: 50px;
     margin-bottom: -.25em; /* text descender height */
   }
   /* Cells with text. */
-  table.border-example td:nth-child(1), table.border-example td:nth-child(4) {
+  table.digits td:nth-child(1), table.digits td:nth-child(4) {
     font-size: .8em;
   }
   /* Cells with single letters. */
-  table.border-example td:nth-child(5), table.border-example td:nth-child(13) {
+  table.digits td:nth-child(5), table.digits td:nth-child(13) {
     font-size: 150%;
   }
-  table.border-example td:nth-child(n+1):nth-child(-n+3),
-  table.border-example td:nth-child(n+5) {
+  table.digits td:nth-child(n+1):nth-child(-n+3),
+  table.digits td:nth-child(n+5) {
     white-space: nowrap;
   }
   tr > :empty {
@@ -62,16 +62,16 @@
     border-width: 0;
   }
   /* Transcription character images. */
-  table.border-example td:nth-child(5) img {
+  table.digits td:nth-child(5) img {
     display: inline;
     height: .8em;
     margin-bottom: 0;
   }
   /* Footnotes in table. */
-  table.border-example td:has(a[href^="#tfn"]) {
+  table.digits td:has(a[href^="#tfn"]) {
     position: relative;
   }
-  table.border-example td a[href^="#tfn"] {
+  table.digits td a[href^="#tfn"] {
     position: absolute;
     top: 0;
     right: 0;
@@ -284,7 +284,7 @@ Font for ASL: Symbol Comparison Table</a>.
   digits)</i>, <i>slutna handformer (closed digits)</i> och <i>blandade
   handformer (mixed digits)</i>.
 
-  <p><table border=1 class="border-example digits stickyhead">
+  <p><table border=1 class="digits stickyhead">
     <thead>
     <tr>
       <th><span class=vert><a href="#handshapes">Handforms-<br>beskrivning</a>
