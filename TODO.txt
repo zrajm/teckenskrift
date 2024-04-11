@@ -67,7 +67,7 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [0/13] Handsymbol
+* [1/13] Handsymbol
 ** TODO Ge klohand ett extra fingerstreck?
    Klohand har bara ett extra fingerstreck, medan böjd 4-hand har två (för att
    distingera den från böjd W-hand). Kolla hur det ser ut i ASLwrite. Vad är
@@ -93,9 +93,6 @@
 ** TODO Expand footnoote [12] with other handshapes
    (samlad dubbelkrok, 'r-bb-kk' -> a08.svg)
 ** TODO Fix table sticky header switch on mobile
-** TODO Rewrite intro, remove dead links & references to Tanada
-   Tanada no longer needs mention in the intro, since its now listed in the
-   table and in the references section.
 ** TODO Ask questions in ASLwrite facebook group
    + Why drop the break in the pinky line in /r-kkk-r/ (flyghand A)?
    + Why go change to external line for index and long finger handshape? Instead
@@ -195,6 +192,10 @@
 * [0/0] skriftsystem
 * [0/0] historik
 * Finished
+** DONE Handsymbol: Rewrite intro, remove dead links & references to Tanada
+   CLOSED: [2024-04-11 Thu 14:20]
+   Tanada no longer needs mention in the intro, since its now listed in the
+   table and in the references section.
 ** DONE Handsymbol: Reindent HTML in table
    CLOSED: [2024-04-11 Thu 10:25]
    Also remove <p> tag before it
