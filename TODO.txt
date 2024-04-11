@@ -1,6 +1,11 @@
 -*- org -*-
 
 * index: Introduction
+** TODO Fingerspelling 'Y' should be more similar to ASLwrite's 'J'
+   In Clark's [clark-2017-aslwrite_summary_3.pdf] the 'J' is written by with a
+   'lying down' pinky digit, indicating the final position of the hand.
+   However, I wrote Swedish 'Y' using the initial hand position -- change to
+   indicate the final position.
 ** TODO Better indication that the videos are videos
    When stopped the video should have a small play symbol in a circle to
    indicate that these are videos which can be played, and not just static
@@ -142,8 +147,9 @@
    Where index, long (and ring) fingers are not straight but turned into a fist
    (with thumb protruding between index and long fingers, or long and ring
    finger).
-** [0/4] Add ASLwrite group facebook threads for source references
-*** TODO The thread with the Clark (2023) PDF document
+** [1/3] Add ASLwrite group facebook threads for source references
+*** DONE The thread with the Clark (2023) PDF document
+    CLOSED: [2024-04-10 Wed 12:15]
     https://www.facebook.com/groups/ASLwrite/posts/2566811746813112
     For correction about hållhand, the ASL E-hand images for the normal and
     screaming E that was swapped in the table for the right hand etc. Missing
