@@ -195,6 +195,9 @@
 * [0/0] skriftsystem
 * [0/0] historik
 * Finished
+** DONE Handsymbol: Reindent HTML in table
+   CLOSED: [2024-04-11 Thu 10:25]
+   Also remove <p> tag before it
 ** DONE Handsymbol: Center main table
    CLOSED: [2024-04-10 Wed 07:03]
 ** DONE Handsymbol: Check that all occurrences of each symbol-in-text have same classes
