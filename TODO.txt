@@ -56,6 +56,9 @@
   The main page should remain in Swedish, but all notes should be in English
   (for the benefit of an international audience). Link files from old to new
   names. ('index.html' should remain in Swedish.
+
+  Also, rename files to English titles, and add forwards from old to new page
+  URL.
 ** TODO anteckningar.html
 ** TODO aslwrite.html
 ** TODO handalfabet.html
@@ -67,7 +70,21 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [0/11] Handsymbol
+* [0/12] Handsymbol
+** TODO Marking when orientation of digit & hand does not match
+   There are several digits for which the orientation between the digit and its
+   illustration differ. These should *at least* be marked in the table. When
+   fixing this, also rewrite/remove the paragraph of text about this (a ‘Note:’
+   just before the table itself).
+
+   Examples are:
+   + American E /KFFFF/
+   + American open E /kffff/
+   + bent thumb /(r)-kkkk/
+   + Swedish M-hand/K-rrr-K/
+
+   Ideally this should be fixed by reorienting the illustration and/or the
+   digit?
 ** TODO Ge klohand ett extra fingerstreck?
    Klohand har bara ett extra fingerstreck, medan böjd 4-hand har två (för att
    distingera den från böjd W-hand). Kolla hur det ser ut i ASLwrite. Vad är
@@ -143,13 +160,16 @@
    Where index, long (and ring) fingers are not straight but turned into a fist
    (with thumb protruding between index and long fingers, or long and ring
    finger).
-** [1/3] Add ASLwrite group facebook threads for source references
+** [1/5] Add ASLwrite group facebook threads for source references
 *** DONE The thread with the Clark (2023) PDF document
     CLOSED: [2024-04-10 Wed 12:15]
     https://www.facebook.com/groups/ASLwrite/posts/2566811746813112
     For correction about hållhand, the ASL E-hand images for the normal and
     screaming E that was swapped in the table for the right hand etc. Missing
     slash for X-hand.
+*** TODO Give each Facebook discussion its own headline & comment
+*** TODO Update the ‘2023 updates’ thread with the new comments
+    https://www.facebook.com/groups/ASLwrite/posts/2566811746813112/?comment_id=2700428303451455
 *** TODO Discussion of newer simplified 'hållhand'
     (Need to reactivate my old facebook account to get a capture of the
     facebook discussion of this.)
