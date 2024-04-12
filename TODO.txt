@@ -61,8 +61,13 @@
   URL.
 ** TODO anteckningar.html
 ** TODO aslwrite.html
+** TODO digits.html
+*** DONE Rename page and forward handsymbol.html -> digits.html
+    CLOSED: [2024-04-12 Fri 18:57]
+*** DONE Rewrite old HTML links to new page name
+   CLOSED: [2024-04-12 Fri 18:56]
+*** TODO Translate remaining text
 ** TODO handalfabet.html
-** TODO handsymbol.html
 ** TODO historik.html
 ** TODO munbild.html
 ** TODO negation.html
@@ -213,18 +218,18 @@
 * Finished
 ** DONE Digits: Fixed indentation error in HTML table
    CLOSED: [2024-04-12 Fri 18:44]
-** DONE Handsymbol: Replace '?' in transcription column with character used in lexicon
+** DONE Digits: Replace '?' in transcription column with character used in lexicon
    CLOSED: [2024-04-12 Fri 14:01]
-** DONE Handsymbol: Rewrite intro, remove dead links & references to Tanada
+** DONE Digits: Rewrite intro, remove dead links & references to Tanada
    CLOSED: [2024-04-11 Thu 14:20]
    Tanada no longer needs mention in the intro, since its now listed in the
    table and in the references section.
-** DONE Handsymbol: Reindent HTML in table
+** DONE Digits: Reindent HTML in table
    CLOSED: [2024-04-11 Thu 10:25]
    Also remove <p> tag before it
-** DONE Handsymbol: Center main table
+** DONE Digits: Center main table
    CLOSED: [2024-04-10 Wed 07:03]
-** DONE Handsymbol: Check that all occurrences of each symbol-in-text have same classes
+** DONE Digits: Check that all occurrences of each symbol-in-text have same classes
    CLOSED: [2024-04-08 Mon 17:09]
    'title' attribute and links to the same place (except where intentionally
    linking to different places)
@@ -255,29 +260,29 @@
     CLOSED: [2024-04-08 Mon 15:47]
 *** DONE Move 'class' to end of <img> tag
     CLOSED: [2024-04-08 Mon 15:52]
-** DONE Handsymbol: No table cell with content should have gray background
+** DONE Digits: No table cell with content should have gray background
    CLOSED: [2024-03-29 Fri 13:10]
-** DONE Handsymbol: Remove shading of Swedish allophones in table
+** DONE Digits: Remove shading of Swedish allophones in table
    CLOSED: [2024-03-29 Fri 13:23]
-** DONE Handsymbol: Improve blue marking
+** DONE Digits: Improve blue marking
    CLOSED: [2024-03-29 Fri 14:08]
-** DONE Handsymbol: Sticky header on/off button should also be sticky
+** DONE Digits: Sticky header on/off button should also be sticky
    CLOSED: [2024-04-02 Tue 12:49]
-** DONE Handsymbol: SVG speech bubble for facebook reproductions
+** DONE Digits: SVG speech bubble for facebook reproductions
    CLOSED: [2024-04-02 Tue 16:58]
-** DONE Handsymbol: Merge the two måtthand (B) /r-b-kkk/
+** DONE Digits: Merge the two måtthand (B) /r-b-kkk/
    CLOSED: [2024-04-03 Wed 21:32]
-** DONE Handsymbol: New stuff from facebook thread?
+** DONE Digits: New stuff from facebook thread?
    CLOSED: [2024-04-03 Wed 22:19]
-** DONE Handsymbol: Enlarging of table on hover should apply to whole table cell
+** DONE Digits: Enlarging of table on hover should apply to whole table cell
    CLOSED: [2024-04-03 Wed 23:34]
-** DONE Handsymbol: All own handshapes should have blue background
+** DONE Digits: All own handshapes should have blue background
    CLOSED: [2024-04-03 Wed 23:44]
-** DONE Handsymbol: Each table row should have a linkable 'id' attribute
+** DONE Digits: Each table row should have a linkable 'id' attribute
    CLOSED: [2024-04-04 Thu 01:11]
-** DONE Handsymbol: Added missing blue markings
+** DONE Digits: Added missing blue markings
    CLOSED: [2024-04-08 Mon 17:36]
-** DONE Handsymbol: Align digits in description column with text baseline
+** DONE Digits: Align digits in description column with text baseline
    CLOSED: [2024-04-08 Mon 18:23]
 ** DONE Updated jQuery version and added source map
    CLOSED: [2023-09-12 Tue 16:01]
