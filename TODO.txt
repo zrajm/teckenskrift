@@ -67,7 +67,7 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [1/13] Handsymbol
+* [0/11] Handsymbol
 ** TODO Ge klohand ett extra fingerstreck?
    Klohand har bara ett extra fingerstreck, medan böjd 4-hand har två (för att
    distingera den från böjd W-hand). Kolla hur det ser ut i ASLwrite. Vad är
@@ -82,7 +82,6 @@
 *** TODO Clark (2017, 2018)
 *** TODO ASLwrite (2017)
 *** TODO Clark (2023)
-** TODO Replace '?' in transcription column with character used in lexicon
 ** TODO F-hand's symbol should be more consistent with stor nyphand
    F-hand /RFrrr/ and stor nyphand /B-B-rrr/
 ** TODO Add footnote on difference in flat and rounded O-hand
@@ -192,6 +191,8 @@
 * [0/0] skriftsystem
 * [0/0] historik
 * Finished
+** DONE Handsymbol: Replace '?' in transcription column with character used in lexicon
+   CLOSED: [2024-04-12 Fri 14:01]
 ** DONE Handsymbol: Rewrite intro, remove dead links & references to Tanada
    CLOSED: [2024-04-11 Thu 14:20]
    Tanada no longer needs mention in the intro, since its now listed in the
