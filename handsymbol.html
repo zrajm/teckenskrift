@@ -6,14 +6,17 @@
 <link rel="icon" href="favicon.svg" sizes="any">
 <link rel="mask-icon" href="favicon.svg" color="#444"><!--Safari-->
 <style>
-  section { margin-top: 1em; margin-bottom: 1em; }
+  body { line-height: 1.6 }
+  dl, h1, h2, h3, section { margin: 1rem 0 }
+  blockquote, ul, ol { margin: 1rem 1.5rem }
+  table, figure { margin: 1rem auto }
+  p { margin: 1rem 0 0 0 }
   .FIXME { background: yellow; }
   .blue { background: #00f4; }
   .trans { font-size: 200%; }
   .trans img { height: 28px; }
   table.digits {
     line-height: 1.2;
-    margin: 1em auto;
   }
   table.digits caption {
     text-align: left;
@@ -100,31 +103,19 @@
     margin-bottom: 4px;
     XXwidth: 100%;
   }
-  dl {
-    margin: 1em 0;
-  }
   dt {
     font-weight: bold;
   }
-  .hanging > p, p.hanging {
+  p + p {
+    margin-top: 0;
+    text-indent: 1.5em;
+  }
+  .hanging p {
+    margin-top: 0;
     padding-left: 1.5em;
     text-indent: -1.5em;
   }
-  .hanging ul, p.hanging + ul, p.indented {
-    padding-left: 1.5em;
-  }
-  .hanging > p.indented, p.hanging.indented { text-indent: 1.5em; margin-top: -1em }
-
-  .glossary > p { margin: 0; }
-  .glossary > p > a:first-child { font-weight: bold; }
-
-  div.handform > table { display: inline-table; margin: .25em .125em; }
-  div.handform > table td[colspan="2"] { font-size: small; }
-
-  .x2 { font-size: 1.8em; line-height: 50px !important; }
-
-  .padded img, img.padded { margin: 10px; }
-  table.inline { display: inline-table; }
+  .hanging > div > p + p { text-indent: 1.5em }
   .vert { writing-mode: vertical-rl; }
 
   /* Add icon to links that open in new tab. */
@@ -212,7 +203,6 @@
   .raise1 { bottom: .1em }
   .raise2 { bottom: .2em }
   .raise3 { bottom: .3em }
-  figure { margin: 1em auto }
 </style>
 
 <h1>Teckenskrift: Handsymboler</h1>
@@ -226,7 +216,7 @@ intended for writing <a href=#col-sts-digits>Swedish Sign Language</a> (STS).
 
 <section id=toc>
   <h1>Innehåll</h1>
-  <ul style="margin:.5em 1em">
+  <ul>
     <li><a href=#main>Handformer för amerikanskt och svenskt teckenspråk</a>
     <li><a href=#facebook>Nya handformer från ASLwrites fejsbokgrupp</a>
     <li><a href=#handshapes>Hand Shape Descriptions</a>
@@ -2176,7 +2166,7 @@ Font for ASL: Symbol Comparison Table</a>”.
     (<a href="https://www.facebook.com/groups/ASLwrite/posts/1371719712988994/?comment_id=2666248603536092&reply_comment_id=2666791083481844"
     >Adrean Clark, Fejsbokkommentar, 23 februari 2024</a>).
 
-  <div id="tfn2" class=hanging>
+  <div id="tfn2">
     <p>[2] I mars 2024 byttes några av de symboler som tidigare rekommenderats
       på den här sidan ut. Före dess innehöll symbolerna för de här
       handformerna en del egenpåhittade mönster där existerande praxis från
@@ -2198,7 +2188,7 @@ Font for ASL: Symbol Comparison Table</a>”.
       och <img class=hand
       src="pic/hand2/vinkelhand-b.png"> <img src="pic/digibet/a09-e.svg">.
 
-    <p class=indented>Symbolerna som ändrades i tabellen ovan
+    <p>Symbolerna som ändrades i tabellen ovan
       var: <i>vinkelhand</i> <img class=hand
       src="pic/hand2/vinkelhand-b.png"> <nobr>(<img src="pic/digibet/a09-x-old.svg">
       → <img src="pic/digibet/a09-e.svg">)</nobr> och <i>flat
@@ -2487,7 +2477,7 @@ Font for ASL: Symbol Comparison Table</a>”.
     >http://www.aslwrite.com/web/wp-content/uploads/2017/11/ASLwriteSummary3.pdf</a>
     (link to <a href="https://archive.org/">archive.org</a>)
 
-    <ul style="margin: -.5rem 1.5rem; font-size:.8em">
+    <ul style="font-size:.8em">
       <li>’Invändigt streck’ ändras till att enbart betyda utsträckt pek- och
         långfinger (övriga fingrar knutna) och de symboler där markören
         tidigare indikerat att samtliga fingrar är utsträckta ändras.
@@ -2542,7 +2532,7 @@ Font for ASL: Symbol Comparison Table</a>”.
     >http://www.aslwrite.com/free/ASLwriteSummary.pdf</a> (link
     to <a href="https://archive.org/">archive.org</a>)
 
-    <ul style="margin: -.5rem 1.5rem; font-size:.8em">
+    <ul style="font-size:.8em">
       <li>Den enda skillnaden mellan Clark (<a href=#2018>2018</a>) och Clark
         (<a href=#2017>2017</a>) är att bokstaven ’G’ i handalfabetet nu
         korrekt skrivs med den nyare symbolen
