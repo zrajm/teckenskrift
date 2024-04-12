@@ -70,7 +70,7 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [0/12] Handsymbol
+* [0/12] digits.html
 ** TODO Marking when orientation of digit & hand does not match
    There are several digits for which the orientation between the digit and its
    illustration differ. These should *at least* be marked in the table. When
@@ -211,6 +211,8 @@
 * [0/0] skriftsystem
 * [0/0] historik
 * Finished
+** DONE Digits: Fixed indentation error in HTML table
+   CLOSED: [2024-04-12 Fri 18:44]
 ** DONE Handsymbol: Replace '?' in transcription column with character used in lexicon
    CLOSED: [2024-04-12 Fri 14:01]
 ** DONE Handsymbol: Rewrite intro, remove dead links & references to Tanada
