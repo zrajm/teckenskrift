@@ -52,6 +52,10 @@
 ** TODO Rename 'mötande linjer'?
    Should these be called 'ihopgående' or 'sammangående', to parallel
    'isärgående linjer'?
+* [0/0] Add non-translate attributes to transcriptions
+  Apparently at least some of my pages look like shite if run through google
+  translate. Maybe this can make, for example, the font table in freesans-swl
+  look good even after translation?
 * [0/8] Translate all notes into English
   The main page should remain in Swedish, but all notes should be in English
   (for the benefit of an international audience). Link files from old to new
@@ -75,7 +79,15 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [0/12] digits.html
+* [0/14] digits.html
+** TODO K-means cluster graph
+   Display a graph of the various handshapes pictures and their digits. Include
+   a selector of which version to use (Arnold 2007, Clark 2013, Clark 2023,
+   STSwrite etc.).
+
+   The point is to cluster thing by property and see how they lump together,
+   and if the lumping of the digit properties is similar to that of the
+   handshapes themselves.
 ** TODO Marking when orientation of digit & hand does not match
    There are several digits for which the orientation between the digit and its
    illustration differ. These should *at least* be marked in the table. When
@@ -114,11 +126,12 @@
 ** TODO Expand footnoote [12] with other handshapes
    (samlad dubbelkrok, 'r-bb-kk' -> a08.svg)
 ** TODO Fix table sticky header switch on mobile
-** TODO Ask questions in ASLwrite facebook group
+** TODO Facebook: Break in pinky line for flyghand
    + Why drop the break in the pinky line in /r-kkk-r/ (flyghand A)?
-   + Why go change to external line for index and long finger handshape? Instead
-     of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
-     /v-rr-kk/ (N-måtthand, liten tumvinkelhand) and /V-VV-kk/ (liten O-hand).
+** TODO Facebook: Interior line change
+  + Why go change to external line for index and long finger handshape? Instead
+    of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
+    /v-rr-kk/ (N-måtthand, liten tumvinkelhand) and /V-VV-kk/ (liten O-hand).
 ** TODO Add si5s (Arnold v2) to table
 ** TODO Add Tanada 3D-hand digit to table
    Is this digit only included in Tanada version 1? If so add version 1 to the
@@ -165,14 +178,15 @@
    Where index, long (and ring) fingers are not straight but turned into a fist
    (with thumb protruding between index and long fingers, or long and ring
    finger).
-** [1/5] Add ASLwrite group facebook threads for source references
+** [2/5] Add ASLwrite group facebook threads for source references
 *** DONE The thread with the Clark (2023) PDF document
     CLOSED: [2024-04-10 Wed 12:15]
     https://www.facebook.com/groups/ASLwrite/posts/2566811746813112
     For correction about hållhand, the ASL E-hand images for the normal and
     screaming E that was swapped in the table for the right hand etc. Missing
     slash for X-hand.
-*** TODO Give each Facebook discussion its own headline & comment
+*** DONE Give each Facebook discussion its own headline & comment
+    CLOSED: [2024-04-13 Sat 19:46]
 *** TODO Update the ‘2023 updates’ thread with the new comments
     https://www.facebook.com/groups/ASLwrite/posts/2566811746813112/?comment_id=2700428303451455
 *** TODO Discussion of newer simplified 'hållhand'
