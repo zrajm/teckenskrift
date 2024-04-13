@@ -7,7 +7,7 @@
   --face-width: 32px;
   --face-margin: 4px;
   --face-outline: #0000;
-  --background: #f0f2f5;
+  --background: #8884;
   --margin-horiz: 12px;
   --padding-horiz: 12px;
   --padding-vert: 6px;
@@ -129,7 +129,7 @@
     }
     &.head:after {
       position: static;
-      border-bottom: 1px solid #ced0d4;
+      border-bottom: 1px solid #8886;
     }
     &.head:before {
       right: 0; bottom: 0;
