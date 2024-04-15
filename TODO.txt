@@ -70,7 +70,9 @@
     CLOSED: [2024-04-12 Fri 18:57]
 *** DONE Rewrite old HTML links to new page name
    CLOSED: [2024-04-12 Fri 18:56]
-*** TODO Translate remaining text
+*** DONE Translate (most of) 'References' section
+    CLOSED: [2024-04-15 Mon 19:16]
+*** TODO Translate 'Footnotes' section
 ** TODO handalfabet.html
 ** TODO historik.html
 ** TODO munbild.html
