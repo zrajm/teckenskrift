@@ -34,7 +34,6 @@
     columns: 270px auto; column-rule: 1px solid #000; column-gap: 1px;
     > * { break-inside: avoid-column; }
   }
-  .emoji { vertical-align: top; }
   .post {
     &.reply { --indent: calc(var(--face-width) + var(--face-margin)) }
     &.head, &.image { --background: none; }
