@@ -137,6 +137,30 @@
         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%2365676b"><circle cx="8" cy="8" r="8"/><path d="m14 8 2 8-8-2z"/></svg>');
     }
   }
+  &:has(> div.attachment:first-child) {
+    flex-direction: column;
+    & div.attachment {
+      background: var(--background);
+      border-bottom: inherit;
+      & a:first-child {
+        display: flex;
+        color: #000;
+        font-weight: bold;
+        margin: .5em auto;
+        & > * { margin: auto 0 }
+        & > div {
+          height: fit-content;
+          margin-left: .5em;
+          &:before {
+            content: "PDF";
+            display: block;
+            color: #67696d;
+            font-size: smaller;
+          }
+        }
+      }
+    }
+  }
 }
 
 /*[eof]*/
