@@ -1,6 +1,7 @@
 -*- org -*-
 
 * index: Introduction
+** TODO Include a good-looking example high up on the page
 ** TODO Fingerspelling 'Y' should be more similar to ASLwrite's 'J'
    In Clark's [clark-2017-aslwrite_summary_3.pdf] the 'J' is written by with a
    'lying down' pinky digit, indicating the final position of the hand.
@@ -52,6 +53,76 @@
 ** TODO Rename 'mötande linjer'?
    Should these be called 'ihopgående' or 'sammangående', to parallel
    'isärgående linjer'?
+* [/] Do a little relationship tree of different *SLwrite
+  Si5s, Si5s v2, BSLwrite, JSLwrite, STSwrite etc.
+* [/] Add sort order page
+* [/] Handshape name page with international terminology
+  The problem with the current handshape terminology is that it differs to much
+  between languages and thus is hard to translate. Handshape names should be
+  directly translatable from language to language, and thus should:
+
+  + NOT be based on fingerspelling names of handshapes (these differs too much
+    between languages).
+  + Should use accepted terms as far as possible (i.e. borrow terms from others
+    such as HamNoSys, Typannot, or SignWriting?)
+  + Maybe use medical terminology for thumb position?
+  + Have clear and unambiguous terms (i.e. if a term has been sloppily used
+    historically, we should probably avoid it, or, [second best] defined it
+    precisely).
+
+  This should use terms from Svenskt teckenspråkslexikon as far as possible,
+  but also deviate from that when needed. (See
+  https://teckensprakslexikon.su.se/verktyg/utskrift and
+  https://teckensprakslexikon.su.se/lage.)
+
+  These concepts are good (but words might have to change):
+
+   + 'utsträkt/rak', 'vinklad', 'böjd'
+     HamNoSys: 'extended', 'flattened' and 'bent' (HamNoSys also has 'hooked'
+     indicating fingers are more bent than 'bent', e.g. in ASL 'E' handshape --
+     do not occur in Swedish?)
+
+   + 'spretad' & 'samlad'
+     HamNoSys: 'spread' & 'nonspread'
+
+   + 'stor' (all secondary fingers straight)
+     HamNoSys: 'others extended' (and 'other extended spread')
+
+   + 'liten' (only index and long finger doing a thing 'liten o-hand')
+     HamNoSys: 'two fingers'
+
+   + 'baby' (only index finger doing a thing, 'baby o-hand')
+     HamNoSys: 'one finger'
+
+  Note that 'stor' and 'liten' (which are opposite adjectives in Swedish in
+  general) not are opposites in this context. Maybe rename these? (e.g. 'stor
+  liten o-hand' makes perfect sense).
+
+  + The word 'finger' does not include the thumb.
+  + One-finger handshapes should be 'thumb', 'index finger', 'pinky' and so
+    on.
+  + Index finger is the 'primary finger', so if a handshape name is just a
+    number of fingers we start with the index finger and count towards the
+    pinky:
+
+    - 'one finger' = index finger (HamNoSys uses this),
+    - 'two fingers' = index and long finger,
+    - 'three fingers' = index, long and ring finger.
+
+  (Maybe see http://zrajm.github.devel/teckentranskription/NEWER/handform.html?)
+
+  See: https://www.sign-lang.uni-hamburg.de/dgs-korpus/files/inhalt_pdf/HamNoSys_Handshapes.pdf
+*** TODO 'korsat långfinger' /+V-r-B-r-r/?
+*** TODO 'stor nyphand (D)' -> 'stor rak måtthand' /v-v-r-r-r/
+*** TODO 'N-måtthanden' -> 'liten rak måtthand' /v-rr-kk/
+*** TODO 'tumhand' -> 'tumme' /r-kkkk/ and /(r)-kkkk/
+    Makes 'böjd tumme' /(r)-kkkk/ possible, but then, what does 'flat tumhand'
+    become?
+*** TODO 'F-hand' -> 'stor hållhand' /RFrrr/
+*** TODO -> X-flyghand (?) /r-r+r-k-r/
+*** TODO Add '3D-hand' to 'fysikerhand' / 'jasåhand'?
+*** TODO More?
+
 * [0/0] Add non-translate attributes to transcriptions
   Apparently at least some of my pages look like shite if run through google
   translate. Maybe this can make, for example, the font table in freesans-swl
@@ -91,6 +162,11 @@
    and if the lumping of the digit properties is similar to that of the
    handshapes themselves.
 ** TODO Marking when orientation of digit & hand does not match
+   This could be solved by having each hand photographed from both sides, and a
+   symbol illustrating each of these hand positions. I.e. a photo of a Swedish
+   E handshape from the palm side, and one from back of the hand (where thumb
+   position isn't visible), each illustrated with separate E hand digit.
+
    There are several digits for which the orientation between the digit and its
    illustration differ. These should *at least* be marked in the table. When
    fixing this, also rewrite/remove the paragraph of text about this (a ‘Note:’
@@ -128,6 +204,14 @@
 ** TODO Expand footnoote [12] with other handshapes
    (samlad dubbelkrok, 'r-bb-kk' -> a08.svg)
 ** TODO Fix table sticky header switch on mobile
+   Doing sticky table header with a wrapper (might work for the button?)
+   https://codepen.io/zbluebugz/pen/VwezpPB
+
+   Different (simpler?) approach also using a wrapper:
+   https://codepen.io/vujovichigor/pen/jOWLmyG
+
+   Both above where linked to from this subreddit:
+   https://www.reddit.com/r/webdev/comments/hgd5gg/sticky_table_buttons/
 ** TODO Facebook: Break in pinky line for flyghand
    + Why drop the break in the pinky line in /r-kkk-r/ (flyghand A)?
 ** TODO Facebook: Interior line change
@@ -138,44 +222,6 @@
 ** TODO Add Tanada 3D-hand digit to table
    Is this digit only included in Tanada version 1? If so add version 1 to the
    reference (and link to it), and also add footnote about this.
-** TODO Create & use consistent handshape terminology (for Swedish and English)
-   This should use terms from Svenskt teckenspråkslexikon as far as possible,
-   but also deviate from that when needed. (See
-   https://teckensprakslexikon.su.se/verktyg/utskrift and
-   https://teckensprakslexikon.su.se/lage.)
-
-   The terms should NOT be based on fingerspelling (i.e. not use the
-   fingerspelling alphabet for inspiration of names), and should have names
-   that are have direct translations between Swedish and English.
-
-   Should rely on medical terminology for thumb positions, maybe?
-
-   These concepts are good (but words might have to change):
-
-   + 'spretad'/'samlad'
-   + 'stor' (all secondary fingers straight)
-   + 'liten' (only index and long finger doing a thing 'liten o-hand')
-   + 'baby' (only index finger doing a thing, 'baby o-hand')
-
-   Note that 'stor' and 'liten' (which are opposite adjectives in Swedish in
-   general) not are opposites in this context. Maybe rename these? (e.g. 'stor
-   liten o-hand' makes perfect sense).
-
-   Handshapes with one finger as the primary finger should be named after the
-   finger ('thumb', 'index finger', 'pinky' and so on).
-
-   (Maybe see http://zrajm.github.devel/teckentranskription/NEWER/handform.html?)
-
-*** TODO 'korsat långfinger' /+V-r-B-r-r/?
-*** TODO 'stor nyphand (D)' -> 'stor rak måtthand' /v-v-r-r-r/
-*** TODO 'N-måtthanden' -> 'liten rak måtthand' /v-rr-kk/
-*** TODO 'tumhand' -> 'tumme' /r-kkkk/ and /(r)-kkkk/
-    Makes 'böjd tumme' /(r)-kkkk/ possible, but then, what does 'flat tumhand'
-    become?
-*** TODO 'F-hand' -> 'stor hållhand' /RFrrr/
-*** TODO -> X-flyghand (?) /r-r+r-k-r/
-*** TODO Add '3D-hand' to 'fysikerhand' / 'jasåhand'?
-*** TODO More?
 ** TODO Change images for American M-hand and N-hand to the common type
    Where index, long (and ring) fingers are not straight but turned into a fist
    (with thumb protruding between index and long fingers, or long and ring
