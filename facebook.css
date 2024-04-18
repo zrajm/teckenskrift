@@ -54,8 +54,10 @@
     > *:last-child { padding-bottom: var(--padding-vert); }
     a {
       text-decoration: none;
-      color: inherit;
-      font-weight: bold;
+      &:where([href^="https://www.facebook.com/"][href*="/user/"]) {
+        color: inherit;
+        font-weight: bold;
+      }
       &:hover { text-decoration: underline; }
     }
     > a {
