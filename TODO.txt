@@ -152,7 +152,7 @@
 * [0/1] Anteckningar
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] aslwrite
-* [0/14] digits.html
+* [0/13] digits.html
 ** TODO K-means cluster graph
    Display a graph of the various handshapes pictures and their digits. Include
    a selector of which version to use (Arnold 2007, Clark 2013, Clark 2023,
@@ -214,10 +214,10 @@
    https://www.reddit.com/r/webdev/comments/hgd5gg/sticky_table_buttons/
 ** TODO Facebook: Break in pinky line for flyghand
    + Why drop the break in the pinky line in /r-kkk-r/ (flyghand A)?
-** TODO Facebook: Interior line change
-  + Why go change to external line for index and long finger handshape? Instead
-    of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
-    /v-rr-kk/ (N-måtthand, liten tumvinkelhand) and /V-VV-kk/ (liten O-hand).
+** TODO Facebook figure should be (slightly more) nested
+   Which posts are replies of which other posts is currently lost. Fix this!
+   Also, one should be able to use anchor links to refer to a whole subthread,
+   not just an individual post.
 ** TODO Add si5s (Arnold v2) to table
 ** TODO Add Tanada 3D-hand digit to table
    Is this digit only included in Tanada version 1? If so add version 1 to the
@@ -278,6 +278,11 @@
 * [0/0] skriftsystem
 * [0/0] historik
 * Finished
+** DONE Digits: Interior line change (Facebook question)
+   CLOSED: [2024-04-18 Thu 18:36]
+  + Why go change to external line for index and long finger handshape? Instead
+    of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
+    /v-rr-kk/ (N-måtthand, liten tumvinkelhand) and /V-VV-kk/ (liten O-hand).
 ** DONE Digits: Fixed indentation error in HTML table
    CLOSED: [2024-04-12 Fri 18:44]
 ** DONE Digits: Replace '?' in transcription column with character used in lexicon
