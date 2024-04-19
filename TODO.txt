@@ -88,7 +88,7 @@
    + 'stor' (all secondary fingers straight)
      HamNoSys: 'others extended' (and 'other extended spread')
 
-   + 'liten' (only index and long finger doing a thing 'liten o-hand')
+   + 'liten' (only index and middle finger doing a thing 'liten o-hand')
      HamNoSys: 'two fingers'
 
    + 'baby' (only index finger doing a thing, 'baby o-hand')
@@ -106,8 +106,8 @@
     pinky:
 
     - 'one finger' = index finger (HamNoSys uses this),
-    - 'two fingers' = index and long finger,
-    - 'three fingers' = index, long and ring finger.
+    - 'two fingers' = index and middle finger,
+    - 'three fingers' = index, middle and ring finger.
 
   (Maybe see http://zrajm.github.devel/teckentranskription/NEWER/handform.html?)
 
@@ -223,10 +223,10 @@
    Is this digit only included in Tanada version 1? If so add version 1 to the
    reference (and link to it), and also add footnote about this.
 ** TODO Change images for American M-hand and N-hand to the common type
-   Where index, long (and ring) fingers are not straight but turned into a fist
-   (with thumb protruding between index and long fingers, or long and ring
-   finger).
-** [2/5] Add ASLwrite group facebook threads for source references
+   Where index, middle (and ring) fingers are not straight but turned into a
+   fist (with thumb protruding between index and middle fingers, or middle and
+   ring finger).
+** [3/5] Add ASLwrite group facebook threads for source references
 *** DONE The thread with the Clark (2023) PDF document
     CLOSED: [2024-04-10 Wed 12:15]
     https://www.facebook.com/groups/ASLwrite/posts/2566811746813112
@@ -241,7 +241,7 @@
 *** TODO Discussion of newer simplified 'hållhand'
     (Need to reactivate my old facebook account to get a capture of the
     facebook discussion of this.)
-*** TODO Discussion of long finger digit
+*** TODO Discussion of middle finger digit
     https://www.facebook.com/groups/ASLwrite/posts/1524869774340653/?comment_id=1525200527640911
     For finger digit footnote (discussion between Gareth Poole & Andrean
     Clark). I need to temporarily reactivate my old facebook account to get a
@@ -281,8 +281,8 @@
 * Finished
 ** DONE Digits: Interior line change (Facebook question)
    CLOSED: [2024-04-18 Thu 18:36]
-  + Why go change to external line for index and long finger handshape? Instead
-    of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
+  + Why go change to external line for index and middle finger handshape?
+    Instead of instead of internal line. This is used for /V-r-VV-r/ (U-hand),
     /v-rr-kk/ (N-måtthand, liten tumvinkelhand) and /V-VV-kk/ (liten O-hand).
 ** DONE Digits: Fixed indentation error in HTML table
    CLOSED: [2024-04-12 Fri 18:44]
