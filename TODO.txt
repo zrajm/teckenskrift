@@ -1,6 +1,106 @@
 -*- org -*-
 
-* index: Introduction
+* [0/1] Systematic changes
+** TODO Use more straightened out digits for(?)
+   pic/digibet/c09.svg -> pic/digibet/c09-b.svg (date handshape)
+   pic/digibet/c15.svg -> pic/digibet/c15-b.svg (K handshape)
+** [0/0] Add non-translate attributes to transcriptions
+   Apparently at least some of my pages look like shite if run through google
+   translate. Maybe this can make, for example, the font table in freesans-swl
+   look good even after translation?
+** [0/8] Translate all notes into English
+   The main page should remain in Swedish, but all notes should be in English
+   (for the benefit of an international audience). Link files from old to new
+   names. ('index.html' should remain in Swedish.
+
+   Also, rename files to English titles, and add forwards from old to new page
+   URL.
+*** TODO anteckningar.html
+*** TODO aslwrite.html
+*** TODO digits.html
+**** DONE Rename page and forward handsymbol.html -> digits.html
+     CLOSED: [2024-04-12 Fri 18:57]
+**** DONE Rewrite old HTML links to new page name
+     CLOSED: [2024-04-12 Fri 18:56]
+**** DONE Translate (most of) 'References' section
+     CLOSED: [2024-04-15 Mon 19:16]
+**** TODO Translate 'Footnotes' section
+*** TODO handalfabet.html
+*** TODO historik.html
+*** TODO munbild.html
+*** TODO negation.html
+*** TODO skriftsystem.html
+* [0/0] Pages to add
+** [0/0] Do a little relationship tree of different *SLwrite
+   Si5s, Si5s v2, BSLwrite, JSLwrite, STSwrite etc.
+** [0/0] Handshape sort order page
+** [0/8] Handshape naming page with international terminology
+   The problem with the current handshape terminology is that it differs to
+   much between languages and thus is hard to translate. Handshape names should
+   be directly translatable from language to language, and thus should:
+
+   + NOT be based on fingerspelling names of handshapes (these differs too much
+     between languages).
+   + Should use accepted terms as far as possible (i.e. borrow terms from
+     others such as HamNoSys, Typannot, or SignWriting?)
+   + Maybe use medical terminology for thumb position?
+   + Have clear and unambiguous terms (i.e. if a term has been sloppily used
+     historically, we should probably avoid it, or, [second best] defined it
+     precisely).
+
+   This should use terms from Svenskt teckenspråkslexikon as far as possible,
+   but also deviate from that when needed. (See
+   https://teckensprakslexikon.su.se/verktyg/utskrift and
+   https://teckensprakslexikon.su.se/lage.)
+
+   These concepts are good (but words might have to change):
+
+    + 'utsträkt/rak', 'vinklad', 'böjd'
+      HamNoSys: 'extended', 'flattened' and 'bent' (HamNoSys also has 'hooked'
+      indicating fingers are more bent than 'bent', e.g. in ASL 'E' handshape
+      -- do not occur in Swedish?)
+
+    + 'spretad' & 'samlad'
+      HamNoSys: 'spread' & 'nonspread'
+
+    + 'stor' (all secondary fingers straight)
+      HamNoSys: 'others extended' (and 'other extended spread')
+
+    + 'liten' (only index and middle finger doing a thing 'liten o-hand')
+      HamNoSys: 'two fingers'
+
+    + 'baby' (only index finger doing a thing, 'baby o-hand')
+      HamNoSys: 'one finger'
+
+   Note that 'stor' and 'liten' (which are opposite adjectives in Swedish in
+   general) not are opposites in this context. Maybe rename these? (e.g. 'stor
+   liten o-hand' makes perfect sense).
+
+   + The word 'finger' does not include the thumb.
+   + One-finger handshapes should be 'thumb', 'index finger', 'pinky' and so
+     on.
+   + Index finger is the 'primary finger', so if a handshape name is just a
+     number of fingers we start with the index finger and count towards the
+     pinky:
+
+     - 'one finger' = index finger (HamNoSys uses this),
+     - 'two fingers' = index and middle finger,
+     - 'three fingers' = index, middle and ring finger.
+
+   (Maybe see http://zrajm.github.devel/teckentranskription/NEWER/handform.html?)
+
+   See: https://www.sign-lang.uni-hamburg.de/dgs-korpus/files/inhalt_pdf/HamNoSys_Handshapes.pdf
+**** TODO 'korsat långfinger' /+V-r-B-r-r/?
+**** TODO 'stor nyphand (D)' -> 'stor rak måtthand' /v-v-r-r-r/
+**** TODO 'N-måtthanden' -> 'liten rak måtthand' /v-rr-kk/
+**** TODO 'tumhand' -> 'tumme' /r-kkkk/ and /(r)-kkkk/
+     Makes 'böjd tumme' /(r)-kkkk/ possible, but then, what does 'flat tumhand'
+     become?
+**** TODO 'F-hand' -> 'stor hållhand' /RFrrr/
+**** TODO -> X-flyghand (?) /r-r+r-k-r/
+**** TODO Add '3D-hand' to 'fysikerhand' / 'jasåhand'?
+**** TODO More?
+* [0/14] `index.html`
 ** TODO Include a good-looking example high up on the page
 ** TODO Fingerspelling 'Y' should be more similar to ASLwrite's 'J'
    In Clark's [clark-2017-aslwrite_summary_3.pdf] the 'J' is written by with a
@@ -53,106 +153,10 @@
 ** TODO Rename 'mötande linjer'?
    Should these be called 'ihopgående' or 'sammangående', to parallel
    'isärgående linjer'?
-* [/] Do a little relationship tree of different *SLwrite
-  Si5s, Si5s v2, BSLwrite, JSLwrite, STSwrite etc.
-* [/] Add sort order page
-* [/] Handshape name page with international terminology
-  The problem with the current handshape terminology is that it differs to much
-  between languages and thus is hard to translate. Handshape names should be
-  directly translatable from language to language, and thus should:
-
-  + NOT be based on fingerspelling names of handshapes (these differs too much
-    between languages).
-  + Should use accepted terms as far as possible (i.e. borrow terms from others
-    such as HamNoSys, Typannot, or SignWriting?)
-  + Maybe use medical terminology for thumb position?
-  + Have clear and unambiguous terms (i.e. if a term has been sloppily used
-    historically, we should probably avoid it, or, [second best] defined it
-    precisely).
-
-  This should use terms from Svenskt teckenspråkslexikon as far as possible,
-  but also deviate from that when needed. (See
-  https://teckensprakslexikon.su.se/verktyg/utskrift and
-  https://teckensprakslexikon.su.se/lage.)
-
-  These concepts are good (but words might have to change):
-
-   + 'utsträkt/rak', 'vinklad', 'böjd'
-     HamNoSys: 'extended', 'flattened' and 'bent' (HamNoSys also has 'hooked'
-     indicating fingers are more bent than 'bent', e.g. in ASL 'E' handshape --
-     do not occur in Swedish?)
-
-   + 'spretad' & 'samlad'
-     HamNoSys: 'spread' & 'nonspread'
-
-   + 'stor' (all secondary fingers straight)
-     HamNoSys: 'others extended' (and 'other extended spread')
-
-   + 'liten' (only index and middle finger doing a thing 'liten o-hand')
-     HamNoSys: 'two fingers'
-
-   + 'baby' (only index finger doing a thing, 'baby o-hand')
-     HamNoSys: 'one finger'
-
-  Note that 'stor' and 'liten' (which are opposite adjectives in Swedish in
-  general) not are opposites in this context. Maybe rename these? (e.g. 'stor
-  liten o-hand' makes perfect sense).
-
-  + The word 'finger' does not include the thumb.
-  + One-finger handshapes should be 'thumb', 'index finger', 'pinky' and so
-    on.
-  + Index finger is the 'primary finger', so if a handshape name is just a
-    number of fingers we start with the index finger and count towards the
-    pinky:
-
-    - 'one finger' = index finger (HamNoSys uses this),
-    - 'two fingers' = index and middle finger,
-    - 'three fingers' = index, middle and ring finger.
-
-  (Maybe see http://zrajm.github.devel/teckentranskription/NEWER/handform.html?)
-
-  See: https://www.sign-lang.uni-hamburg.de/dgs-korpus/files/inhalt_pdf/HamNoSys_Handshapes.pdf
-*** TODO 'korsat långfinger' /+V-r-B-r-r/?
-*** TODO 'stor nyphand (D)' -> 'stor rak måtthand' /v-v-r-r-r/
-*** TODO 'N-måtthanden' -> 'liten rak måtthand' /v-rr-kk/
-*** TODO 'tumhand' -> 'tumme' /r-kkkk/ and /(r)-kkkk/
-    Makes 'böjd tumme' /(r)-kkkk/ possible, but then, what does 'flat tumhand'
-    become?
-*** TODO 'F-hand' -> 'stor hållhand' /RFrrr/
-*** TODO -> X-flyghand (?) /r-r+r-k-r/
-*** TODO Add '3D-hand' to 'fysikerhand' / 'jasåhand'?
-*** TODO More?
-
-* [0/0] Add non-translate attributes to transcriptions
-  Apparently at least some of my pages look like shite if run through google
-  translate. Maybe this can make, for example, the font table in freesans-swl
-  look good even after translation?
-* [0/8] Translate all notes into English
-  The main page should remain in Swedish, but all notes should be in English
-  (for the benefit of an international audience). Link files from old to new
-  names. ('index.html' should remain in Swedish.
-
-  Also, rename files to English titles, and add forwards from old to new page
-  URL.
-** TODO anteckningar.html
-** TODO aslwrite.html
-** TODO digits.html
-*** DONE Rename page and forward handsymbol.html -> digits.html
-    CLOSED: [2024-04-12 Fri 18:57]
-*** DONE Rewrite old HTML links to new page name
-   CLOSED: [2024-04-12 Fri 18:56]
-*** DONE Translate (most of) 'References' section
-    CLOSED: [2024-04-15 Mon 19:16]
-*** TODO Translate 'Footnotes' section
-** TODO handalfabet.html
-** TODO historik.html
-** TODO munbild.html
-** TODO negation.html
-** TODO skriftsystem.html
-* [0/1] Anteckningar
+* [0/1] `anteckningar.html`
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
-* [0/0] aslwrite
-* [0/13] digits.html
+* [0/0] `aslwrite.html`
+* [0/13] `digits.html`
 ** TODO K-means cluster graph
    Display a graph of the various handshapes pictures and their digits. Include
    a selector of which version to use (Arnold 2007, Clark 2013, Clark 2023,
@@ -246,7 +250,10 @@
     For finger digit footnote (discussion between Gareth Poole & Andrean
     Clark). I need to temporarily reactivate my old facebook account to get a
     capture of the facebook discussion of this.
-* [0/10] munbild: Mouth segment notes
+* [0/0] `handalfabet.html`
+* [0/0] `handsymbol.html`
+* [0/0] `historik.html`
+* [0/10] `munbild.html`
 ** TODO Look at mouthings in described in SSLC
    The Swedish Sign Language Corpus have at least some annotations of reduced
    mouthings borrowed from Swedish. -- I happened to stumble upon the
@@ -275,9 +282,8 @@
    Useful data can be found in:
    * ”A Preliminary Analysis of Visual Mouth Segments in Swedish Sign
      Language” has a bunch of useful examples of reductions.
-* [0/0] negation
-* [0/0] skriftsystem
-* [0/0] historik
+* [0/0] `negation.html`
+* [0/0] `skriftsystem.html`
 * Finished
 ** DONE Digits: Interior line change (Facebook question)
    CLOSED: [2024-04-18 Thu 18:36]
