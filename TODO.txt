@@ -235,7 +235,8 @@
     slash for X-hand.
 *** DONE Give each Facebook discussion its own headline & comment
     CLOSED: [2024-04-13 Sat 19:46]
-*** TODO Update the ‘2023 updates’ thread with the new comments
+*** DONE Update the ‘2023 updates’ thread with the new comments
+    CLOSED: [2024-04-18 Thu 16:02]
     https://www.facebook.com/groups/ASLwrite/posts/2566811746813112/?comment_id=2700428303451455
 *** TODO Discussion of newer simplified 'hållhand'
     (Need to reactivate my old facebook account to get a capture of the
