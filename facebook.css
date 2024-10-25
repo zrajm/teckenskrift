@@ -7,15 +7,20 @@
   --face-width: 32px;
   --face-margin: 4px;
   --face-outline: #0000;
-  --background: #8884;
+  --background: #f0f2f5;
   --margin-horiz: 12px;
   --padding-horiz: 12px;
   --padding-vert: 6px;
-  --rounding: 18px;
+  --radius-top: 18px;
+  --radius-bottom: 18px;
   --time-placement: 1;
   --indent: 0px;
   display: flex; align-items: stretch;
   border: 1px solid #000;
+  font-family: Helvetica, Arial, sans-serif;
+  p { text-indent: 0; margin-top: var(--padding-vert) }
+
+  /* Picture/file section. */
   > div:nth-child(1) {
     background: #000;
     display: flex;
@@ -29,10 +34,18 @@
       max-width: 50vh;
     }
   }
+  /* Posts & comments section. */
   > div:nth-child(2) {
     flex: 10 0 fit-content;
     columns: 270px auto; column-rule: 1px solid #000; column-gap: 1px;
     > * { break-inside: avoid-column; }
+    /* Rounded background corners. */
+    a.user                     { --radius-top:    0; }
+    a.user ~ div:first-of-type { --radius-bottom: 0; }
+    div,img,a {
+      border-radius: var(--radius-bottom) var(--radius-bottom)
+                     var(--radius-top)    var(--radius-top);
+    }
   }
   .post {
     &.reply { --indent: calc(var(--face-width) + var(--face-margin)) }
@@ -54,18 +67,22 @@
     > *:last-child { padding-bottom: var(--padding-vert); }
     a {
       text-decoration: none;
+      font-weight: bold;
+      color: #0064d1;
       &:where([href^="https://www.facebook.com/"][href*="/user/"]) {
         color: inherit;
-        font-weight: bold;
       }
-      &:hover { text-decoration: underline; }
+      &:hover { text-decoration: underline;
+        box-shadow: none;
+        & img:not([src^="pic/facebook/user"]) { outline: 4px solid #00f6 }
+      }
     }
     > a {
       display: block;
       font-size: 13px;
       > img {
         display: block;
-        border-radius: var(--rounding);
+        border-radius: var(--radius-bottom);
         outline: 1px solid #0002; outline-offset: -1px;
         margin: calc(var(--padding-vert) * -.5) calc(var(--padding-horiz) * -1) calc(var(--padding-vert) * -1);
         max-width: calc(100% + var(--padding-horiz) * 2);
@@ -74,11 +91,10 @@
         color: #65676b;
         order: var(--time-placement);
         font-weight: normal;
+        white-space: nowrap;
       }
     }
-    /* Gray background w/ rounded corners. */
-    > div:last-of-type { border-radius: 0 0 var(--rounding) var(--rounding); }
-    > .user { border-radius: var(--rounding) var(--rounding) 0 0; }
+    /* Gray background. */
     > .user, > div { background: var(--background); }
     /* User picture. */
     > .user {
@@ -111,7 +127,7 @@
     &[data-loves]     { --content-love: var(--love) " " attr(data-loves); }
     &[data-loves="1"] { --content-love: var(--love); }
     &.head:before, &:after {
-      position: absolute; bottom: 6px; right: 0;
+      position: absolute; bottom: 8px; right: 0;
       background: #fff; color: #65676b;
       font-size: 13px; line-height: 0;
       border: 2px solid #fff; border-radius: 18px;
