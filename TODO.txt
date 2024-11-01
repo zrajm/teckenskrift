@@ -156,7 +156,21 @@
 * [0/1] `anteckningar.html`
 ** TODO Display all ASLwrite documents in a TOC >> These notes should be easier to find on the web page!
 * [0/0] `aslwrite.html`
-* [0/13] `digits.html`
+* [0/14] `digits.html`
+** [0/3] Si5s2 digits
+*** TODO Add the 'start car' handshape to the table
+*** TODO Add footnote to table column explaining the source
+    Since the source isn't the complete official textbook, it would be worth
+    mentioning.
+*** TODO Add a footnoote for all the 'Extrapolated' digits
+** TODO Normalize attitude in images and digits
+   Some of the handshapes and digits have 'weird' rotations/attitudes. Some of
+   the digits have a different built-in attitude (e.g. 'rak måtthand',
+   'A-hand', 'O-hand', 'klohand' have different attitude than 'sprethand',
+   'flat hand', '4-hand' etc.) which motivates a different attitude, but some
+   are unmotivated rotations. Like maybe 'amerikansk M-hand', 'amerikansk
+   N-hand'? But definitely 'M-hand', 'N-hand', 'pistolhand' (which all should
+   be pointing upwards).
 ** TODO K-means cluster graph
    Display a graph of the various handshapes pictures and their digits. Include
    a selector of which version to use (Arnold 2007, Clark 2013, Clark 2023,
